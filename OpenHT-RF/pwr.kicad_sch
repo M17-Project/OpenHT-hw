@@ -1,0 +1,18 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c4a2fdb0-d443-4a80-9115-249ae46a3c2e)
+
+  (paper "A4")
+
+  (title_block
+    (title "OpenHT - open source SDR handheld")
+    (date "2023-02-17")
+    (rev "A")
+    (company "M17 Project")
+    (comment 1 "Authors: Wojciech SP5WWP, Leo Hofer")
+  )
+
+  (lib_symbols
+  )
+
+)

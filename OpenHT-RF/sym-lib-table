@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LIFCL-40")(type "Legacy")(uri "${KIPRJMOD}/libs/LIFCL-40-7SG72I.lib")(options "")(descr ""))
+  (lib (name "AT86RF215-ZU")(type "Legacy")(uri "${KIPRJMOD}/libs/AT86RF215-ZU.lib")(options "")(descr ""))
+)

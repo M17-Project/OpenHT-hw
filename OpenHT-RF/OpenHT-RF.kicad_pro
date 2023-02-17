@@ -430,6 +430,22 @@
     [
       "3c300b59-23ec-47f8-bb91-29ca34130bcf",
       ""
+    ],
+    [
+      "17571ff2-f5b8-49d7-92c6-d2c188350dd2",
+      "Power supply"
+    ],
+    [
+      "1ac744a1-066f-4d1a-b0df-41e1d7c4818a",
+      "Connectors"
+    ],
+    [
+      "2f3751e7-d003-4d36-b778-c7fcad1ff611",
+      "FPGA"
+    ],
+    [
+      "e3bba2b3-d2df-4b56-8e13-359b6c4f2426",
+      "RF"
     ]
   ],
   "text_variables": {}
