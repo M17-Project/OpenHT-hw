@@ -1,0 +1,3 @@
+[submodule "M17_kicad_library"]
+	path = M17_kicad_library
+	url = https://github.com/M17-Project/M17_kicad_library
