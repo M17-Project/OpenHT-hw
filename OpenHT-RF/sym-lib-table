@@ -1,5 +1,6 @@
 (sym_lib_table
   (version 7)
-  (lib (name "AT86RF215-ZU")(type "Legacy")(uri "${KIPRJMOD}/libs/AT86RF215-ZU.lib")(options "")(descr ""))
+  (lib (name "M17_RF")(type "KiCad")(uri "${M17_LIBRARY}/M17_RF.kicad_sym")(options "")(descr ""))
   (lib (name "M17_FPGA")(type "KiCad")(uri "${M17_LIBRARY}/M17_FPGA.kicad_sym")(options "")(descr ""))
+  (lib (name "M17_misc_active")(type "KiCad")(uri "${M17_LIBRARY}/M17_misc_active.kicad_sym")(options "")(descr ""))
 )
