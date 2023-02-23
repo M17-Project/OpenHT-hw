@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP AT86RF215-ZU
-D RF Transceiver Dual Band IEEE 802.15.4 TRX, 48QFN, Tray
-K
-F http://ww1.microchip.com/downloads/en/devicedoc/atmel-42415-wireless-at86rf215_datasheet.pdf
-$ENDCMP
-#
-#End Doc Library

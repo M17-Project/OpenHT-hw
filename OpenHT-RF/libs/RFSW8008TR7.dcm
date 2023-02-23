@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP RFSW8008TR7
-D RF Switch ICs .3-6 GHz WiFi SPDT Switch
-K
-F https://ms.componentsearchengine.com/Datasheets/1/RFSW8008TR7.pdf
-$ENDCMP
-#
-#End Doc Library
