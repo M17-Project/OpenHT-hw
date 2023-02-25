@@ -3,4 +3,5 @@
   (lib (name "M17_RF")(type "KiCad")(uri "${M17_LIBRARY}/M17_RF.kicad_sym")(options "")(descr ""))
   (lib (name "M17_FPGA")(type "KiCad")(uri "${M17_LIBRARY}/M17_FPGA.kicad_sym")(options "")(descr ""))
   (lib (name "M17_misc_active")(type "KiCad")(uri "${M17_LIBRARY}/M17_misc_active.kicad_sym")(options "")(descr ""))
+  (lib (name "M17_power")(type "KiCad")(uri "${M17_LIBRARY}/M17_power.kicad_sym")(options "")(descr ""))
 )
