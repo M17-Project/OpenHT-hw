@@ -420,7 +420,7 @@
       "Net-(FL1-OUT)": "RF",
       "Net-(FL2-OUT)": "RF",
       "Net-(J6-In)": "RF",
-      "Net-(SW1-ANT)": "RF",
+      "unconnected-(C40-Pad1)": "RF",
       "unconnected-(FL1-IN-Pad1)": "RF",
       "unconnected-(FL2-IN-Pad1)": "RF"
     },
