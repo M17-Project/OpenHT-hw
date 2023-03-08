@@ -13,6 +13,41 @@
   )
 
   (lib_symbols
+    (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "TP" (at 0 6.858 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "TestPoint" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "test point tp" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "test point" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "TestPoint_0_1"
+        (circle (center 0 3.302) (radius 0.762)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "TestPoint_1_1"
+        (pin passive line (at 0 0 90) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -947,9 +982,6 @@
   (junction (at 228.6 39.37) (diameter 0) (color 0 0 0 0)
     (uuid 32231c63-0aea-4e25-868e-4b15ae30e78a)
   )
-  (junction (at 69.85 22.86) (diameter 0) (color 0 0 0 0)
-    (uuid 335f27db-f202-4a22-989d-ef5aa3fe3a62)
-  )
   (junction (at 203.2 39.37) (diameter 0) (color 0 0 0 0)
     (uuid 38548f9c-d3ba-404e-be54-2bf6a2d7d12f)
   )
@@ -1053,6 +1085,10 @@
   (wire (pts (xy 39.37 22.86) (xy 39.37 25.4))
     (stroke (width 0) (type default))
     (uuid 01ae8712-78c6-49bf-9709-659677b849d2)
+  )
+  (wire (pts (xy 34.29 69.85) (xy 44.45 69.85))
+    (stroke (width 0) (type default))
+    (uuid 03412d0c-9b77-4dd6-96fa-3a2f10683ec4)
   )
   (wire (pts (xy 40.64 49.53) (xy 40.64 50.8))
     (stroke (width 0) (type default))
@@ -1182,6 +1218,10 @@
     (stroke (width 0) (type default))
     (uuid 2408c49a-abab-4f0c-ba48-d6b97adecc7e)
   )
+  (wire (pts (xy 43.18 22.86) (xy 39.37 22.86))
+    (stroke (width 0) (type default))
+    (uuid 24dcbdcf-0ad6-47de-94fb-5e222ea9e68a)
+  )
   (wire (pts (xy 40.64 38.1) (xy 44.45 38.1))
     (stroke (width 0) (type default))
     (uuid 25a8086e-9ffa-4d07-b33e-d82eb81d097c)
@@ -1282,6 +1322,10 @@
     (stroke (width 0) (type default))
     (uuid 48d689ac-7d37-4cc0-aca2-abe8471a9e73)
   )
+  (wire (pts (xy 34.29 74.93) (xy 44.45 74.93))
+    (stroke (width 0) (type default))
+    (uuid 49885d17-ed5d-4679-820a-a6b576b9637b)
+  )
   (wire (pts (xy 217.17 144.78) (xy 217.17 146.05))
     (stroke (width 0) (type default))
     (uuid 4a261cc1-dc54-41f4-b32c-ec04da91773f)
@@ -1338,7 +1382,7 @@
     (stroke (width 0) (type default))
     (uuid 5af8be25-9516-4da6-b249-69355aacf5ce)
   )
-  (wire (pts (xy 69.85 21.59) (xy 69.85 22.86))
+  (wire (pts (xy 43.18 21.59) (xy 43.18 22.86))
     (stroke (width 0) (type default))
     (uuid 5f1fe8b9-2bf5-4ccb-a024-cc8bebacad81)
   )
@@ -1393,6 +1437,10 @@
   (wire (pts (xy 247.65 139.7) (xy 247.65 146.05))
     (stroke (width 0) (type default))
     (uuid 78de33e2-e095-4c6c-ba95-43edf7e0888e)
+  )
+  (wire (pts (xy 34.29 77.47) (xy 43.18 77.47))
+    (stroke (width 0) (type default))
+    (uuid 79700919-d037-453f-801a-f7738f002b94)
   )
   (wire (pts (xy 81.28 115.57) (xy 81.28 120.65))
     (stroke (width 0) (type default))
@@ -1534,6 +1582,10 @@
     (stroke (width 0) (type default))
     (uuid ad72647e-951c-46a1-bb28-0e0e69cabb4c)
   )
+  (wire (pts (xy 34.29 72.39) (xy 44.45 72.39))
+    (stroke (width 0) (type default))
+    (uuid af1f45a1-2904-4732-8ae7-180eeb7016ef)
+  )
   (wire (pts (xy 44.45 115.57) (xy 45.72 115.57))
     (stroke (width 0) (type default))
     (uuid af304d65-ac78-463a-aef1-1f56150c3941)
@@ -1606,14 +1658,6 @@
     (stroke (width 0) (type default))
     (uuid c1055880-53a8-44c2-9b8e-634c0c8569d6)
   )
-  (wire (pts (xy 39.37 22.86) (xy 69.85 22.86))
-    (stroke (width 0) (type default))
-    (uuid c363cfe3-1f14-4d54-a57e-dff977ab5ee6)
-  )
-  (wire (pts (xy 69.85 22.86) (xy 69.85 25.4))
-    (stroke (width 0) (type default))
-    (uuid c40653ef-4ba5-47c2-8443-f0a7a1c673d4)
-  )
   (wire (pts (xy 111.76 54.61) (xy 111.76 55.88))
     (stroke (width 0) (type default))
     (uuid c636040a-9f10-4d5d-8fec-877698c72439)
@@ -1666,6 +1710,10 @@
     (stroke (width 0) (type default))
     (uuid dbbc4b52-9bac-4694-b32a-8ffd1981f5ec)
   )
+  (wire (pts (xy 35.56 80.01) (xy 35.56 81.28))
+    (stroke (width 0) (type default))
+    (uuid dc997c29-5229-477a-af3c-064f9cd6bd81)
+  )
   (wire (pts (xy 180.34 54.61) (xy 187.96 54.61))
     (stroke (width 0) (type default))
     (uuid df036897-24b1-40ba-a8cf-f19bc37d168e)
@@ -1706,6 +1754,10 @@
     (stroke (width 0) (type default))
     (uuid e929bbfa-5994-42c3-95b7-3d134e690c19)
   )
+  (wire (pts (xy 34.29 67.31) (xy 44.45 67.31))
+    (stroke (width 0) (type default))
+    (uuid e97da826-d6e0-4328-a972-55a2419f2059)
+  )
   (wire (pts (xy 184.15 121.92) (xy 187.96 121.92))
     (stroke (width 0) (type default))
     (uuid eb74dc03-d38d-464a-8b2f-b841d3615941)
@@ -1713,6 +1765,10 @@
   (wire (pts (xy 36.83 22.86) (xy 39.37 22.86))
     (stroke (width 0) (type default))
     (uuid ebeeb206-6924-4c9b-afc2-42cfe237e38f)
+  )
+  (wire (pts (xy 34.29 80.01) (xy 35.56 80.01))
+    (stroke (width 0) (type default))
+    (uuid ec7d403b-d66d-446f-ad9f-bf41c13ef9b5)
   )
   (wire (pts (xy 203.2 48.26) (xy 203.2 49.53))
     (stroke (width 0) (type default))
@@ -1779,6 +1835,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7f2afd3f-5fdd-432a-b0b7-6c09c880c47d)
   )
+  (label "PWR_EN" (at 43.18 77.47 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 97f8d94a-995d-47fd-b970-d6298f07ef72)
+  )
   (label "SS_CAP" (at 181.61 102.87 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d680aa55-1869-4ebe-a0a4-32a839ce7a99)
@@ -1812,7 +1872,7 @@
   (symbol (lib_id "Device:C") (at 123.19 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 084b2776-2978-4e1a-a165-fc1847c3c7d9)
-    (property "Reference" "C67" (at 127 98.425 0)
+    (property "Reference" "C209" (at 127 98.425 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 127 100.965 0)
@@ -1838,7 +1898,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C67") (unit 1)
+          (reference "C209") (unit 1)
         )
       )
     )
@@ -1847,7 +1907,7 @@
   (symbol (lib_id "power:GND") (at 74.93 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1156d145-c242-4dad-93bb-33c8737ff73e)
-    (property "Reference" "#PWR037" (at 74.93 135.89 0)
+    (property "Reference" "#PWR0215" (at 74.93 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.93 134.62 0)
@@ -1863,7 +1923,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR0215") (unit 1)
         )
       )
     )
@@ -1872,7 +1932,7 @@
   (symbol (lib_id "M17_power:TPS65261RHBx") (at 50.8 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15af0fc3-68d4-4bd6-b792-7fc46e03e1ad)
-    (property "Reference" "U3" (at 59.69 95.25 0)
+    (property "Reference" "U202" (at 59.69 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS65261RHBx" (at 59.69 97.79 0)
@@ -1920,7 +1980,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "U3") (unit 1)
+          (reference "U202") (unit 1)
         )
       )
     )
@@ -1929,7 +1989,7 @@
   (symbol (lib_id "power:GND") (at 228.6 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18930705-4f17-4963-8ea6-376adbce8601)
-    (property "Reference" "#PWR097" (at 228.6 109.22 0)
+    (property "Reference" "#PWR0235" (at 228.6 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 228.6 107.95 0)
@@ -1945,7 +2005,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR0235") (unit 1)
         )
       )
     )
@@ -1954,7 +2014,7 @@
   (symbol (lib_id "Device:R") (at 82.55 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 191bcc15-3c18-45f6-a831-8637eff14ca4)
-    (property "Reference" "R24" (at 85.09 95.885 0)
+    (property "Reference" "R206" (at 85.09 95.885 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100kR" (at 85.09 98.425 0)
@@ -1971,7 +2031,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "R24") (unit 1)
+          (reference "R206") (unit 1)
         )
       )
     )
@@ -1980,7 +2040,7 @@
   (symbol (lib_id "power:GND") (at 240.03 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19afd898-e538-4b44-83f0-ba050e14286e)
-    (property "Reference" "#PWR091" (at 240.03 57.15 0)
+    (property "Reference" "#PWR0237" (at 240.03 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.03 55.88 0)
@@ -1996,7 +2056,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR0237") (unit 1)
         )
       )
     )
@@ -2005,7 +2065,7 @@
   (symbol (lib_id "Device:C") (at 240.03 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid 1ab22739-3c9b-4de1-95a3-e4a7fc130ed4)
-    (property "Reference" "C66" (at 243.84 97.155 0)
+    (property "Reference" "C224" (at 243.84 97.155 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 243.84 99.695 0)
@@ -2031,7 +2091,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C66") (unit 1)
+          (reference "C224") (unit 1)
         )
       )
     )
@@ -2040,7 +2100,7 @@
   (symbol (lib_id "power:GND") (at 86.36 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1de0fe42-4eb2-4ab0-a2d3-eac929ba4bce)
-    (property "Reference" "#PWR083" (at 86.36 119.38 0)
+    (property "Reference" "#PWR0220" (at 86.36 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 118.11 0)
@@ -2056,7 +2116,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR0220") (unit 1)
         )
       )
     )
@@ -2065,7 +2125,7 @@
   (symbol (lib_id "Device:C") (at 217.17 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ded7b43-bd74-42dc-ad19-d3735ab6633e)
-    (property "Reference" "C31" (at 213.36 140.335 0)
+    (property "Reference" "C220" (at 213.36 140.335 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1uF" (at 213.36 142.875 0)
@@ -2082,7 +2142,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C31") (unit 1)
+          (reference "C220") (unit 1)
         )
       )
     )
@@ -2091,7 +2151,7 @@
   (symbol (lib_id "Device:C") (at 240.03 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e3bb9e8-aac4-436a-a060-b2c2d37e12b5)
-    (property "Reference" "C45" (at 243.84 45.085 0)
+    (property "Reference" "C223" (at 243.84 45.085 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 243.84 47.625 0)
@@ -2117,7 +2177,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C45") (unit 1)
+          (reference "C223") (unit 1)
         )
       )
     )
@@ -2126,7 +2186,7 @@
   (symbol (lib_id "power:+3V3") (at 77.47 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e5a4362-fcb3-4416-acc6-fb8094a0b4b9)
-    (property "Reference" "#PWR057" (at 77.47 95.25 0)
+    (property "Reference" "#PWR0217" (at 77.47 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 77.47 87.63 0)
@@ -2142,7 +2202,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR0217") (unit 1)
         )
       )
     )
@@ -2151,7 +2211,7 @@
   (symbol (lib_id "power:+3.3V") (at 246.38 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2737aca4-e748-48ee-8f05-5503b85b1ab3)
-    (property "Reference" "#PWR092" (at 246.38 43.18 0)
+    (property "Reference" "#PWR0239" (at 246.38 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 246.38 35.56 0)
@@ -2167,7 +2227,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR0239") (unit 1)
         )
       )
     )
@@ -2176,7 +2236,7 @@
   (symbol (lib_id "Device:C") (at 69.85 50.8 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 294d16ee-9848-4a5e-8927-a1b7369b6294)
-    (property "Reference" "C53" (at 66.04 50.165 0)
+    (property "Reference" "C203" (at 66.04 50.165 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.15uF" (at 66.04 52.705 0)
@@ -2193,7 +2253,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C53") (unit 1)
+          (reference "C203") (unit 1)
         )
       )
     )
@@ -2202,7 +2262,7 @@
   (symbol (lib_id "Device:R") (at 187.96 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c4e6298-6fd7-45b4-9629-dbdea6ce8acf)
-    (property "Reference" "R17" (at 190.5 57.785 0)
+    (property "Reference" "R207" (at 190.5 57.785 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "8.66kR" (at 190.5 60.325 0)
@@ -2219,7 +2279,32 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "R17") (unit 1)
+          (reference "R207") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 34.29 69.85 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2d7f833f-f08b-43ad-88ca-503661363953)
+    (property "Reference" "TP202" (at 29.21 69.85 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 30.988 67.31 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 34.29 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 34.29 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3a7b0335-24ef-493d-8e2f-054f4c8d5fd2))
+    (instances
+      (project "OpenHT-RF"
+        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
+          (reference "TP202") (unit 1)
         )
       )
     )
@@ -2228,7 +2313,7 @@
   (symbol (lib_id "power:+BATT") (at 104.14 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3237dd38-34ff-4d2f-985c-84f50bfffbb9)
-    (property "Reference" "#PWR066" (at 104.14 95.25 0)
+    (property "Reference" "#PWR0222" (at 104.14 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 104.14 87.63 0)
@@ -2244,7 +2329,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR0222") (unit 1)
         )
       )
     )
@@ -2253,7 +2338,7 @@
   (symbol (lib_id "Device:C") (at 123.19 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 33003bf6-24ae-4230-a33d-cb12c09125f3)
-    (property "Reference" "C47" (at 127 46.355 0)
+    (property "Reference" "C208" (at 127 46.355 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 127 48.895 0)
@@ -2279,7 +2364,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C47") (unit 1)
+          (reference "C208") (unit 1)
         )
       )
     )
@@ -2288,7 +2373,7 @@
   (symbol (lib_id "M17_misc_active:LTC2954-1") (at 49.53 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3308dc45-e023-43eb-9054-3fe59285408c)
-    (property "Reference" "U2" (at 56.515 29.21 0)
+    (property "Reference" "U201" (at 56.515 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LTC2954-1" (at 56.515 31.75 0)
@@ -2311,7 +2396,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "U2") (unit 1)
+          (reference "U201") (unit 1)
         )
       )
     )
@@ -2320,7 +2405,7 @@
   (symbol (lib_id "power:GND") (at 217.17 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35c27aa1-2d0f-497b-9af4-f3a16e6223cf)
-    (property "Reference" "#PWR068" (at 217.17 57.15 0)
+    (property "Reference" "#PWR0230" (at 217.17 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 217.17 55.88 0)
@@ -2336,7 +2421,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR0230") (unit 1)
         )
       )
     )
@@ -2345,7 +2430,7 @@
   (symbol (lib_id "Device:L") (at 180.34 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3db202ab-0426-4e15-9ab8-04c1d7a734ff)
-    (property "Reference" "L5" (at 180.34 87.63 90)
+    (property "Reference" "L202" (at 180.34 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47uH" (at 180.34 90.17 90)
@@ -2365,7 +2450,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "L5") (unit 1)
+          (reference "L202") (unit 1)
         )
       )
     )
@@ -2374,7 +2459,7 @@
   (symbol (lib_id "power:GND") (at 237.49 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43f7e5ff-44f7-4889-889c-30e69c533fda)
-    (property "Reference" "#PWR089" (at 237.49 153.67 0)
+    (property "Reference" "#PWR0236" (at 237.49 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 237.49 152.4 0)
@@ -2390,7 +2475,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR0236") (unit 1)
         )
       )
     )
@@ -2399,7 +2484,7 @@
   (symbol (lib_id "Device:C") (at 228.6 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 471b95a1-4192-4a1a-9bd4-60a821bcdb85)
-    (property "Reference" "C65" (at 232.41 97.155 0)
+    (property "Reference" "C222" (at 232.41 97.155 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 232.41 99.695 0)
@@ -2425,7 +2510,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C65") (unit 1)
+          (reference "C222") (unit 1)
         )
       )
     )
@@ -2434,7 +2519,7 @@
   (symbol (lib_id "Device:C") (at 217.17 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c0922e2-0f4e-4c91-a435-9ab2b50f8146)
-    (property "Reference" "C64" (at 220.98 97.155 0)
+    (property "Reference" "C219" (at 220.98 97.155 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 220.98 99.695 0)
@@ -2460,7 +2545,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C64") (unit 1)
+          (reference "C219") (unit 1)
         )
       )
     )
@@ -2469,7 +2554,7 @@
   (symbol (lib_id "Device:C") (at 180.34 114.3 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c944394-4f6f-4772-8177-08b5c6e55a94)
-    (property "Reference" "C61" (at 176.53 113.665 0)
+    (property "Reference" "C213" (at 176.53 113.665 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.5pF" (at 176.53 116.205 0)
@@ -2486,7 +2571,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C61") (unit 1)
+          (reference "C213") (unit 1)
         )
       )
     )
@@ -2495,7 +2580,7 @@
   (symbol (lib_id "Device:R") (at 39.37 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f3d4d43-fda6-4771-90f1-af73f097761b)
-    (property "Reference" "R19" (at 41.91 28.575 0)
+    (property "Reference" "R202" (at 41.91 28.575 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1kR" (at 41.91 31.115 0)
@@ -2512,7 +2597,32 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "R19") (unit 1)
+          (reference "R202") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 34.29 77.47 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4f780674-7658-4675-a9a4-3c239bbb7e5b)
+    (property "Reference" "TP205" (at 29.21 77.47 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 30.988 74.93 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 34.29 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 34.29 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dabf908a-be97-4abc-8d78-6d7ea9d9ce7a))
+    (instances
+      (project "OpenHT-RF"
+        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
+          (reference "TP205") (unit 1)
         )
       )
     )
@@ -2521,7 +2631,7 @@
   (symbol (lib_id "Device:C") (at 111.76 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid 506c205e-f0db-41da-9c24-53914eefed61)
-    (property "Reference" "C27" (at 115.57 98.425 0)
+    (property "Reference" "C207" (at 115.57 98.425 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 115.57 100.965 0)
@@ -2547,7 +2657,32 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C27") (unit 1)
+          (reference "C207") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 34.29 80.01 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 53fdee7d-7f80-456a-84f4-769108deb27a)
+    (property "Reference" "TP206" (at 29.21 80.01 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 30.988 77.47 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 34.29 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 34.29 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d3fbac89-19d7-4eef-93f9-81bb59197cc4))
+    (instances
+      (project "OpenHT-RF"
+        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
+          (reference "TP206") (unit 1)
         )
       )
     )
@@ -2556,7 +2691,7 @@
   (symbol (lib_id "Device:R") (at 203.2 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56846040-dc24-4156-b037-806142a051bf)
-    (property "Reference" "R20" (at 205.74 43.815 0)
+    (property "Reference" "R209" (at 205.74 43.815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "43kR" (at 205.74 46.355 0)
@@ -2576,7 +2711,57 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "R20") (unit 1)
+          (reference "R209") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 34.29 74.93 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 583483f4-9b2a-4d29-9452-dabdd7995f14)
+    (property "Reference" "TP204" (at 29.21 74.93 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 30.988 72.39 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 34.29 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 34.29 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 18f94aa5-bd14-47c0-8372-07332679f998))
+    (instances
+      (project "OpenHT-RF"
+        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
+          (reference "TP204") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+1V0") (at 44.45 74.93 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5a6c964e-23f2-4152-86c5-e48edc2d5d22)
+    (property "Reference" "#PWR0208" (at 40.64 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+1V0" (at 48.26 75.565 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 44.45 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 44.45 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a230c077-ff34-4304-857a-9fda045eb2bc))
+    (instances
+      (project "OpenHT-RF"
+        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
+          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -2585,7 +2770,7 @@
   (symbol (lib_id "M17_power:AP7330D-W5-7") (at 231.14 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b1dac42-f483-4966-ad92-6dbe5b8086f9)
-    (property "Reference" "U4" (at 237.49 129.54 0)
+    (property "Reference" "U203" (at 237.49 129.54 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AP7330-W5-7" (at 237.49 132.08 0)
@@ -2605,7 +2790,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "U4") (unit 1)
+          (reference "U203") (unit 1)
         )
       )
     )
@@ -2614,7 +2799,7 @@
   (symbol (lib_id "Device:Polyfuse") (at 33.02 22.86 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5df4f28a-0eac-4dfd-bf60-3ed1530254ca)
-    (property "Reference" "F1" (at 33.02 17.78 90)
+    (property "Reference" "F201" (at 33.02 17.78 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Polyfuse" (at 33.02 20.32 90)
@@ -2631,7 +2816,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "F1") (unit 1)
+          (reference "F201") (unit 1)
         )
       )
     )
@@ -2640,7 +2825,7 @@
   (symbol (lib_id "M17_power:TPS65261RHBx") (at 151.13 34.29 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f19dff0-214c-4c0c-9537-7a05ee480a1d)
-    (property "Reference" "U3" (at 160.02 30.48 0)
+    (property "Reference" "U202" (at 160.02 30.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS65261RHBx" (at 160.02 33.02 0)
@@ -2688,7 +2873,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "U3") (unit 2)
+          (reference "U202") (unit 2)
         )
       )
     )
@@ -2697,7 +2882,7 @@
   (symbol (lib_id "Device:C") (at 59.69 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6377b27c-95c1-4836-af28-bb3b6e3945b7)
-    (property "Reference" "C30" (at 63.5 146.685 0)
+    (property "Reference" "C202" (at 63.5 146.685 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "18nF" (at 63.5 149.225 0)
@@ -2714,7 +2899,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C30") (unit 1)
+          (reference "C202") (unit 1)
         )
       )
     )
@@ -2723,7 +2908,7 @@
   (symbol (lib_id "Device:C") (at 187.96 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a7ac124-3228-4ec3-b1f4-2120a04c6e59)
-    (property "Reference" "C63" (at 191.77 117.475 0)
+    (property "Reference" "C217" (at 191.77 117.475 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF" (at 191.77 120.015 0)
@@ -2740,7 +2925,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C63") (unit 1)
+          (reference "C217") (unit 1)
         )
       )
     )
@@ -2749,7 +2934,7 @@
   (symbol (lib_id "power:GND") (at 59.69 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6adebe77-27e3-4858-852b-04371419363a)
-    (property "Reference" "#PWR069" (at 59.69 158.75 0)
+    (property "Reference" "#PWR0213" (at 59.69 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.69 157.48 0)
@@ -2765,7 +2950,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR0213") (unit 1)
         )
       )
     )
@@ -2774,7 +2959,7 @@
   (symbol (lib_id "power:GND") (at 228.6 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b28dbb2-ee65-4870-916e-396c1acc4a7f)
-    (property "Reference" "#PWR090" (at 228.6 57.15 0)
+    (property "Reference" "#PWR0234" (at 228.6 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 228.6 55.88 0)
@@ -2790,7 +2975,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR0234") (unit 1)
         )
       )
     )
@@ -2799,7 +2984,7 @@
   (symbol (lib_id "Device:C") (at 76.2 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6d6eaf07-2ad0-460f-af37-6e2f82ed3c57)
-    (property "Reference" "C54" (at 80.01 50.165 0)
+    (property "Reference" "C204" (at 80.01 50.165 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.15uF" (at 80.01 52.705 0)
@@ -2816,7 +3001,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C54") (unit 1)
+          (reference "C204") (unit 1)
         )
       )
     )
@@ -2825,7 +3010,7 @@
   (symbol (lib_id "power:GND") (at 267.97 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f1350d4-460e-4a82-8c94-5671ab89acca)
-    (property "Reference" "#PWR072" (at 267.97 152.4 0)
+    (property "Reference" "#PWR0242" (at 267.97 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 267.97 151.13 0)
@@ -2841,7 +3026,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR0242") (unit 1)
         )
       )
     )
@@ -2850,7 +3035,7 @@
   (symbol (lib_id "Device:C") (at 182.88 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6fe7ed4b-43fe-4816-a8d6-4d5cd0630ce3)
-    (property "Reference" "C62" (at 179.07 93.98 90)
+    (property "Reference" "C215" (at 179.07 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47nF" (at 179.07 96.52 90)
@@ -2873,7 +3058,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C62") (unit 1)
+          (reference "C215") (unit 1)
         )
       )
     )
@@ -2882,7 +3067,7 @@
   (symbol (lib_id "power:GND") (at 69.85 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 71886cba-db12-49a3-89f7-04ee925e8ff1)
-    (property "Reference" "#PWR076" (at 69.85 62.23 0)
+    (property "Reference" "#PWR0214" (at 69.85 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 69.85 60.96 0)
@@ -2898,7 +3083,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR0214") (unit 1)
         )
       )
     )
@@ -2907,7 +3092,7 @@
   (symbol (lib_id "power:GND") (at 41.91 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72752c47-1461-4c10-8e34-914107d828d3)
-    (property "Reference" "#PWR075" (at 41.91 58.42 0)
+    (property "Reference" "#PWR0210" (at 41.91 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.91 57.15 0)
@@ -2923,7 +3108,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR0210") (unit 1)
         )
       )
     )
@@ -2932,7 +3117,7 @@
   (symbol (lib_id "power:+1V0") (at 270.51 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72bf4910-ac68-405f-ba39-a69eb5d25cc3)
-    (property "Reference" "#PWR073" (at 270.51 138.43 0)
+    (property "Reference" "#PWR0243" (at 270.51 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V0" (at 270.51 130.81 0)
@@ -2948,7 +3133,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR0243") (unit 1)
         )
       )
     )
@@ -2957,7 +3142,7 @@
   (symbol (lib_id "power:GND") (at 203.2 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74b6a132-04b9-4e8a-8416-196d90d10607)
-    (property "Reference" "#PWR095" (at 203.2 118.11 0)
+    (property "Reference" "#PWR0229" (at 203.2 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 116.84 0)
@@ -2973,7 +3158,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR0229") (unit 1)
         )
       )
     )
@@ -2982,7 +3167,7 @@
   (symbol (lib_id "power:GND") (at 184.15 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76551e6d-d70e-42e5-85d4-52ec56911fac)
-    (property "Reference" "#PWR093" (at 184.15 77.47 0)
+    (property "Reference" "#PWR0226" (at 184.15 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 184.15 76.2 0)
@@ -2998,7 +3183,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR0226") (unit 1)
         )
       )
     )
@@ -3007,7 +3192,7 @@
   (symbol (lib_id "power:GND") (at 217.17 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7772d0e3-5ed8-406e-8802-037ee39d8722)
-    (property "Reference" "#PWR088" (at 217.17 152.4 0)
+    (property "Reference" "#PWR0233" (at 217.17 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 217.17 151.13 0)
@@ -3023,7 +3208,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR0233") (unit 1)
         )
       )
     )
@@ -3032,7 +3217,7 @@
   (symbol (lib_id "Device:C") (at 217.17 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b795d34-0cbe-49e3-8706-cbba120f152e)
-    (property "Reference" "C29" (at 220.98 45.085 0)
+    (property "Reference" "C218" (at 220.98 45.085 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 220.98 47.625 0)
@@ -3058,7 +3243,32 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C29") (unit 1)
+          (reference "C218") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 34.29 72.39 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7ce9bc56-63ac-4eaa-8e6a-cad30a52f00d)
+    (property "Reference" "TP203" (at 29.21 72.39 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 30.988 69.85 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 34.29 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 34.29 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bd7932ea-00ce-41ba-a67c-82e63d027312))
+    (instances
+      (project "OpenHT-RF"
+        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
+          (reference "TP203") (unit 1)
         )
       )
     )
@@ -3067,7 +3277,7 @@
   (symbol (lib_id "power:GND") (at 111.76 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7dbbfd40-7743-4a7f-8c74-07f84c1a86ef)
-    (property "Reference" "#PWR086" (at 111.76 114.3 0)
+    (property "Reference" "#PWR0224" (at 111.76 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 113.03 0)
@@ -3083,7 +3293,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR0224") (unit 1)
         )
       )
     )
@@ -3092,7 +3302,7 @@
   (symbol (lib_id "Device:L") (at 180.34 39.37 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 817e310f-abcc-448e-b486-bee8aaaaffcd)
-    (property "Reference" "L1" (at 180.34 35.56 90)
+    (property "Reference" "L201" (at 180.34 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33uH" (at 180.34 38.1 90)
@@ -3112,7 +3322,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "L1") (unit 1)
+          (reference "L201") (unit 1)
         )
       )
     )
@@ -3121,7 +3331,7 @@
   (symbol (lib_id "Device:C") (at 180.34 62.23 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 828309ef-3e72-4d43-ad5e-1bdc94f5d217)
-    (property "Reference" "C23" (at 176.53 61.595 0)
+    (property "Reference" "C212" (at 176.53 61.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.9pF" (at 176.53 64.135 0)
@@ -3138,7 +3348,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C23") (unit 1)
+          (reference "C212") (unit 1)
         )
       )
     )
@@ -3147,7 +3357,7 @@
   (symbol (lib_id "power:GND") (at 111.76 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84c62cc5-37dd-4e84-a2bc-2f13fced4f24)
-    (property "Reference" "#PWR085" (at 111.76 62.23 0)
+    (property "Reference" "#PWR0223" (at 111.76 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 60.96 0)
@@ -3163,32 +3373,32 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR0223") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:+BATT") (at 69.85 21.59 0) (unit 1)
+  (symbol (lib_id "power:+BATT") (at 43.18 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8582d3d9-689c-44a3-bf24-0cc43c72ad5b)
-    (property "Reference" "#PWR045" (at 69.85 25.4 0)
+    (property "Reference" "#PWR0211" (at 43.18 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+BATT" (at 69.85 17.78 0)
+    (property "Value" "+BATT" (at 43.18 17.78 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 69.85 21.59 0)
+    (property "Footprint" "" (at 43.18 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 69.85 21.59 0)
+    (property "Datasheet" "" (at 43.18 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fb4a02fb-503c-4144-a2b4-7d4e77f7fbe5))
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR0211") (unit 1)
         )
       )
     )
@@ -3197,7 +3407,7 @@
   (symbol (lib_id "power:GND") (at 76.2 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85cb4d76-34c7-4244-8aa0-b8c658cfbe38)
-    (property "Reference" "#PWR077" (at 76.2 62.23 0)
+    (property "Reference" "#PWR0216" (at 76.2 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 60.96 0)
@@ -3213,7 +3423,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR0216") (unit 1)
         )
       )
     )
@@ -3222,7 +3432,7 @@
   (symbol (lib_id "Device:R") (at 254 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86bfd16c-6b83-401f-9557-ed625e7000e5)
-    (property "Reference" "R15" (at 256.54 140.335 0)
+    (property "Reference" "R213" (at 256.54 140.335 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.55kR" (at 256.54 142.875 0)
@@ -3239,7 +3449,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "R15") (unit 1)
+          (reference "R213") (unit 1)
         )
       )
     )
@@ -3248,7 +3458,7 @@
   (symbol (lib_id "power:+BATT") (at 25.4 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87ed26bc-138b-4e21-a1e4-438e73a4a0ed)
-    (property "Reference" "#PWR047" (at 25.4 106.68 0)
+    (property "Reference" "#PWR0201" (at 25.4 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 25.4 99.06 0)
@@ -3264,7 +3474,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR0201") (unit 1)
         )
       )
     )
@@ -3273,7 +3483,7 @@
   (symbol (lib_id "power:+1V8") (at 217.17 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ed75dab-9381-4309-818d-34bfc55b0417)
-    (property "Reference" "#PWR087" (at 217.17 137.16 0)
+    (property "Reference" "#PWR0232" (at 217.17 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 217.17 129.54 0)
@@ -3289,7 +3499,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR0232") (unit 1)
         )
       )
     )
@@ -3298,7 +3508,7 @@
   (symbol (lib_id "Device:R") (at 77.47 96.52 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 90b2a94d-dd0b-4536-9733-0d8596ac887d)
-    (property "Reference" "R14" (at 74.93 95.885 0)
+    (property "Reference" "R205" (at 74.93 95.885 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100kR" (at 74.93 98.425 0)
@@ -3315,7 +3525,57 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "R14") (unit 1)
+          (reference "R205") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 34.29 67.31 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9112ad31-0912-43c2-95e1-bde5d76f9c08)
+    (property "Reference" "TP201" (at 29.21 67.31 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 30.988 64.77 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 34.29 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 34.29 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid baa48690-edec-481f-a640-e142a46b81fe))
+    (instances
+      (project "OpenHT-RF"
+        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
+          (reference "TP201") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 35.56 81.28 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 91f14705-d8f7-46e2-96d9-2bc3ea129fc3)
+    (property "Reference" "#PWR0204" (at 35.56 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 35.56 86.36 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 35.56 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 35.56 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e4a9ccb3-3716-46c5-822d-2ca8b6f6bfe4))
+    (instances
+      (project "OpenHT-RF"
+        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
+          (reference "#PWR0204") (unit 1)
         )
       )
     )
@@ -3324,7 +3584,7 @@
   (symbol (lib_id "power:GND") (at 254 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97d38210-0853-43b0-b98c-b3dc3b8e6110)
-    (property "Reference" "#PWR071" (at 254 162.56 0)
+    (property "Reference" "#PWR0241" (at 254 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 254 161.29 0)
@@ -3340,7 +3600,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR0241") (unit 1)
         )
       )
     )
@@ -3349,7 +3609,7 @@
   (symbol (lib_id "Device:C") (at 25.4 109.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9993b123-8908-4611-9697-a5e1af5f143d)
-    (property "Reference" "C44" (at 21.59 108.585 0)
+    (property "Reference" "C201" (at 21.59 108.585 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 21.59 111.125 0)
@@ -3366,7 +3626,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C44") (unit 1)
+          (reference "C201") (unit 1)
         )
       )
     )
@@ -3375,7 +3635,7 @@
   (symbol (lib_id "Device:R") (at 187.96 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a18a5927-e6c0-492c-9a9a-e41b081c52c7)
-    (property "Reference" "R18" (at 190.5 109.855 0)
+    (property "Reference" "R208" (at 190.5 109.855 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.16kR" (at 190.5 112.395 0)
@@ -3392,7 +3652,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "R18") (unit 1)
+          (reference "R208") (unit 1)
         )
       )
     )
@@ -3401,7 +3661,7 @@
   (symbol (lib_id "Device:C") (at 182.88 43.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2e44821-a59e-4248-bf72-5c17a41f945b)
-    (property "Reference" "C26" (at 179.07 41.91 90)
+    (property "Reference" "C214" (at 179.07 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47nF" (at 179.07 44.45 90)
@@ -3424,7 +3684,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C26") (unit 1)
+          (reference "C214") (unit 1)
         )
       )
     )
@@ -3433,7 +3693,7 @@
   (symbol (lib_id "Device:C") (at 187.96 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a675b627-07dd-448a-a559-bd1ff61866f4)
-    (property "Reference" "C60" (at 191.77 65.405 0)
+    (property "Reference" "C216" (at 191.77 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.2nF" (at 191.77 67.945 0)
@@ -3450,7 +3710,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C60") (unit 1)
+          (reference "C216") (unit 1)
         )
       )
     )
@@ -3459,7 +3719,7 @@
   (symbol (lib_id "Device:C") (at 111.76 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a901c23c-cf03-4cf8-8db6-fb5536cfa868)
-    (property "Reference" "C46" (at 115.57 46.355 0)
+    (property "Reference" "C206" (at 115.57 46.355 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 115.57 48.895 0)
@@ -3485,7 +3745,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C46") (unit 1)
+          (reference "C206") (unit 1)
         )
       )
     )
@@ -3494,7 +3754,7 @@
   (symbol (lib_id "power:GND") (at 240.03 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2f44877-31b6-4265-a9af-21bc8cdbd5c4)
-    (property "Reference" "#PWR098" (at 240.03 109.22 0)
+    (property "Reference" "#PWR0238" (at 240.03 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.03 107.95 0)
@@ -3510,7 +3770,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR0238") (unit 1)
         )
       )
     )
@@ -3519,7 +3779,7 @@
   (symbol (lib_id "power:+3V3") (at 82.55 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b38e76ab-c95c-4231-bae8-946ab17f0889)
-    (property "Reference" "#PWR061" (at 82.55 95.25 0)
+    (property "Reference" "#PWR0219" (at 82.55 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 82.55 87.63 0)
@@ -3535,7 +3795,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR0219") (unit 1)
         )
       )
     )
@@ -3544,7 +3804,7 @@
   (symbol (lib_id "Device:R") (at 34.29 107.95 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5ae9f52-9738-4de9-b514-8b6bdd6d94cf)
-    (property "Reference" "R22" (at 34.29 105.41 90)
+    (property "Reference" "R201" (at 34.29 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200kR" (at 34.29 110.49 90)
@@ -3561,7 +3821,32 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "R22") (unit 1)
+          (reference "R201") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+BATT") (at 44.45 67.31 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b7388d77-62fa-432b-ba41-b8bb095a2670)
+    (property "Reference" "#PWR0205" (at 40.64 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+BATT" (at 48.26 67.31 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 44.45 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 44.45 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7a9d00e3-843c-4cfc-b87c-cc7912a2e986))
+    (instances
+      (project "OpenHT-RF"
+        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
+          (reference "#PWR0205") (unit 1)
         )
       )
     )
@@ -3570,7 +3855,7 @@
   (symbol (lib_id "power:GND") (at 217.17 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8d0284b-4080-4157-a86f-781459187452)
-    (property "Reference" "#PWR096" (at 217.17 109.22 0)
+    (property "Reference" "#PWR0231" (at 217.17 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 217.17 107.95 0)
@@ -3586,7 +3871,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR0231") (unit 1)
         )
       )
     )
@@ -3595,7 +3880,7 @@
   (symbol (lib_id "power:+BATT") (at 104.14 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd5ac41a-b8ab-4b95-9094-bf5c22717733)
-    (property "Reference" "#PWR084" (at 104.14 43.18 0)
+    (property "Reference" "#PWR0221" (at 104.14 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 104.14 35.56 0)
@@ -3611,7 +3896,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR0221") (unit 1)
         )
       )
     )
@@ -3620,7 +3905,7 @@
   (symbol (lib_id "Device:C") (at 81.28 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bdbaacfa-b39a-448f-90de-51597fab5b48)
-    (property "Reference" "C22" (at 85.09 123.825 0)
+    (property "Reference" "C205" (at 85.09 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 85.09 126.365 0)
@@ -3637,7 +3922,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C22") (unit 1)
+          (reference "C205") (unit 1)
         )
       )
     )
@@ -3646,7 +3931,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 21.59 22.86 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bdcd3d41-c80d-49d1-9ba1-d2f41a052ac1)
-    (property "Reference" "J9" (at 21.59 17.78 0)
+    (property "Reference" "J201" (at 21.59 17.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02" (at 21.59 20.32 0)
@@ -3663,7 +3948,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "J9") (unit 1)
+          (reference "J201") (unit 1)
         )
       )
     )
@@ -3672,7 +3957,7 @@
   (symbol (lib_id "power:GND") (at 81.28 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf675fb3-294b-4850-bc19-f335fc7491b2)
-    (property "Reference" "#PWR040" (at 81.28 135.89 0)
+    (property "Reference" "#PWR0218" (at 81.28 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 134.62 0)
@@ -3688,7 +3973,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR0218") (unit 1)
         )
       )
     )
@@ -3697,7 +3982,7 @@
   (symbol (lib_id "Device:R") (at 39.37 115.57 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c55d2ea4-ec1e-4492-86be-474a65ef0208)
-    (property "Reference" "R23" (at 36.83 115.57 90)
+    (property "Reference" "R203" (at 36.83 115.57 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47.5kR" (at 41.91 115.57 90)
@@ -3714,7 +3999,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "R23") (unit 1)
+          (reference "R203") (unit 1)
         )
       )
     )
@@ -3723,7 +4008,7 @@
   (symbol (lib_id "Device:R") (at 254 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c7c711e2-229e-4f2c-b6f7-b3c1b353cc53)
-    (property "Reference" "R16" (at 256.54 150.495 0)
+    (property "Reference" "R214" (at 256.54 150.495 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10.2kR" (at 256.54 153.035 0)
@@ -3740,7 +4025,32 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "R16") (unit 1)
+          (reference "R214") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+1V8") (at 44.45 72.39 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c7cfba3e-6094-4df6-adfc-bf9bbb2f7524)
+    (property "Reference" "#PWR0207" (at 40.64 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+1V8" (at 48.26 72.39 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 44.45 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 44.45 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 55f2770e-34f5-4504-a165-64aeb52fb529))
+    (instances
+      (project "OpenHT-RF"
+        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
+          (reference "#PWR0207") (unit 1)
         )
       )
     )
@@ -3749,7 +4059,7 @@
   (symbol (lib_id "power:GND") (at 143.51 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c899e293-6f0c-4a1e-bcf4-d60fadb41a80)
-    (property "Reference" "#PWR070" (at 143.51 163.83 0)
+    (property "Reference" "#PWR0225" (at 143.51 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 162.56 0)
@@ -3765,7 +4075,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR0225") (unit 1)
         )
       )
     )
@@ -3774,7 +4084,7 @@
   (symbol (lib_id "power:+1V8") (at 246.38 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c968a45a-cd1d-4651-a93d-a2622251e9ab)
-    (property "Reference" "#PWR099" (at 246.38 95.25 0)
+    (property "Reference" "#PWR0240" (at 246.38 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 246.38 87.63 0)
@@ -3790,7 +4100,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR0240") (unit 1)
         )
       )
     )
@@ -3799,7 +4109,7 @@
   (symbol (lib_id "Device:R") (at 203.2 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cbe397e3-b684-4caf-a29a-f90d9d5a9eaf)
-    (property "Reference" "R26" (at 205.74 95.885 0)
+    (property "Reference" "R211" (at 205.74 95.885 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20kR" (at 205.74 98.425 0)
@@ -3819,7 +4129,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "R26") (unit 1)
+          (reference "R211") (unit 1)
         )
       )
     )
@@ -3828,7 +4138,7 @@
   (symbol (lib_id "Device:C") (at 228.6 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da91f074-d2b8-4761-94d1-5fdf88bd7443)
-    (property "Reference" "C43" (at 232.41 45.085 0)
+    (property "Reference" "C221" (at 232.41 45.085 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 232.41 47.625 0)
@@ -3854,7 +4164,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C43") (unit 1)
+          (reference "C221") (unit 1)
         )
       )
     )
@@ -3863,7 +4173,7 @@
   (symbol (lib_id "power:GND") (at 203.2 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db306226-e03a-4aff-bb2c-49dc5dd6e562)
-    (property "Reference" "#PWR067" (at 203.2 66.04 0)
+    (property "Reference" "#PWR0228" (at 203.2 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 64.77 0)
@@ -3879,7 +4189,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR0228") (unit 1)
         )
       )
     )
@@ -3888,7 +4198,7 @@
   (symbol (lib_id "M17_power:TPS65261RHBx") (at 151.13 86.36 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd1343d8-2178-4e27-acbc-6f285883d700)
-    (property "Reference" "U3" (at 160.02 82.55 0)
+    (property "Reference" "U202" (at 160.02 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS65261RHBx" (at 160.02 85.09 0)
@@ -3936,7 +4246,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "U3") (unit 3)
+          (reference "U202") (unit 3)
         )
       )
     )
@@ -3945,7 +4255,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 40.64 44.45 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dfcc5350-f9b7-40af-a9e3-3295ada9e22f)
-    (property "Reference" "SW1" (at 36.83 43.815 90)
+    (property "Reference" "SW201" (at 36.83 43.815 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW_Push" (at 36.83 46.355 90)
@@ -3962,7 +4272,32 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "SW1") (unit 1)
+          (reference "SW201") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3V3") (at 44.45 69.85 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e0575a5c-06f7-43f1-8b29-6e3561d086cf)
+    (property "Reference" "#PWR0206" (at 40.64 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 48.26 69.85 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 44.45 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 44.45 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d05de857-3212-447a-97cb-1f1f6edfe6bc))
+    (instances
+      (project "OpenHT-RF"
+        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
+          (reference "#PWR0206") (unit 1)
         )
       )
     )
@@ -3971,7 +4306,7 @@
   (symbol (lib_id "power:GND") (at 27.94 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3d69a34-322a-4560-a2ff-fe35818a88eb)
-    (property "Reference" "#PWR046" (at 27.94 36.83 0)
+    (property "Reference" "#PWR0203" (at 27.94 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 27.94 35.56 0)
@@ -3987,7 +4322,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
       )
     )
@@ -3996,7 +4331,7 @@
   (symbol (lib_id "Device:C") (at 134.62 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3dc5803-9e26-40c3-a0b2-73fd66d726f0)
-    (property "Reference" "C48" (at 138.43 46.355 0)
+    (property "Reference" "C210" (at 138.43 46.355 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 138.43 48.895 0)
@@ -4022,7 +4357,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C48") (unit 1)
+          (reference "C210") (unit 1)
         )
       )
     )
@@ -4031,7 +4366,7 @@
   (symbol (lib_id "power:GND") (at 39.37 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7422e17-ed03-4271-a735-bb133f711fc6)
-    (property "Reference" "#PWR036" (at 39.37 128.27 0)
+    (property "Reference" "#PWR0209" (at 39.37 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.37 127 0)
@@ -4047,7 +4382,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR0209") (unit 1)
         )
       )
     )
@@ -4056,7 +4391,7 @@
   (symbol (lib_id "Device:C") (at 267.97 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e843cd14-51ba-4315-9496-bc5006620527)
-    (property "Reference" "C28" (at 271.78 140.335 0)
+    (property "Reference" "C225" (at 271.78 140.335 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 271.78 142.875 0)
@@ -4073,7 +4408,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C28") (unit 1)
+          (reference "C225") (unit 1)
         )
       )
     )
@@ -4082,7 +4417,7 @@
   (symbol (lib_id "power:GND") (at 44.45 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8fa6d93-b563-4a9d-b8ed-5a52692e3a27)
-    (property "Reference" "#PWR055" (at 44.45 128.27 0)
+    (property "Reference" "#PWR0212" (at 44.45 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 44.45 127 0)
@@ -4098,7 +4433,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR0212") (unit 1)
         )
       )
     )
@@ -4107,7 +4442,7 @@
   (symbol (lib_id "Device:C") (at 134.62 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9345834-b95a-4474-996a-76324b9872f2)
-    (property "Reference" "C68" (at 138.43 98.425 0)
+    (property "Reference" "C211" (at 138.43 98.425 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 138.43 100.965 0)
@@ -4133,7 +4468,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "C68") (unit 1)
+          (reference "C211") (unit 1)
         )
       )
     )
@@ -4142,7 +4477,7 @@
   (symbol (lib_id "Device:R") (at 203.2 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid edf0ca6a-516d-4492-896b-cbe7bec1fa6e)
-    (property "Reference" "R27" (at 205.74 106.045 0)
+    (property "Reference" "R212" (at 205.74 106.045 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10kR" (at 205.74 108.585 0)
@@ -4162,7 +4497,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "R27") (unit 1)
+          (reference "R212") (unit 1)
         )
       )
     )
@@ -4171,7 +4506,7 @@
   (symbol (lib_id "Device:R") (at 203.2 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f032c320-7179-42c0-bdca-1c5c2b3a018c)
-    (property "Reference" "R21" (at 205.74 53.975 0)
+    (property "Reference" "R210" (at 205.74 53.975 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "9.53kR" (at 205.74 56.515 0)
@@ -4191,7 +4526,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "R21") (unit 1)
+          (reference "R210") (unit 1)
         )
       )
     )
@@ -4200,7 +4535,7 @@
   (symbol (lib_id "M17_power:TPS65261RHBx") (at 151.13 134.62 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f05e5029-d3b3-4f7d-9729-ec5fe7d211bc)
-    (property "Reference" "U3" (at 160.02 130.81 0)
+    (property "Reference" "U202" (at 160.02 130.81 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS65261RHBx" (at 160.02 133.35 0)
@@ -4248,7 +4583,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "U3") (unit 4)
+          (reference "U202") (unit 4)
         )
       )
     )
@@ -4257,7 +4592,7 @@
   (symbol (lib_id "power:GND") (at 184.15 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f238f0cb-d251-4162-9d42-233c98222768)
-    (property "Reference" "#PWR094" (at 184.15 129.54 0)
+    (property "Reference" "#PWR0227" (at 184.15 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 184.15 128.27 0)
@@ -4273,7 +4608,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR0227") (unit 1)
         )
       )
     )
@@ -4282,7 +4617,7 @@
   (symbol (lib_id "power:GND") (at 25.4 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8cf3b57-1db6-4b22-9623-cf4f489a7c3d)
-    (property "Reference" "#PWR062" (at 25.4 120.65 0)
+    (property "Reference" "#PWR0202" (at 25.4 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 25.4 119.38 0)
@@ -4298,7 +4633,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
@@ -4307,7 +4642,7 @@
   (symbol (lib_id "Device:R") (at 74.93 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fee38304-7898-4888-a323-b4728006c117)
-    (property "Reference" "R25" (at 72.39 123.825 0)
+    (property "Reference" "R204" (at 72.39 123.825 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "110kR" (at 72.39 126.365 0)
@@ -4324,7 +4659,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
-          (reference "R25") (unit 1)
+          (reference "R204") (unit 1)
         )
       )
     )

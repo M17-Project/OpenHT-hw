@@ -396,6 +396,23 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "RF_Diff",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -413,16 +430,18 @@
       "/FPGA/LVDS_TXCLK_P": "LVDS",
       "/FPGA/LVDS_TX_N": "LVDS",
       "/FPGA/LVDS_TX_P": "LVDS",
-      "/RF/RFN09": "RF",
-      "/RF/RFN24": "RF",
-      "/RF/RFP09": "RF",
-      "/RF/RFP24": "RF",
-      "Net-(C52-Pad1)": "RF",
-      "Net-(FL1-OUT)": "RF",
-      "Net-(FL2-IN)": "RF",
-      "Net-(FL2-OUT)": "RF",
-      "Net-(J6-In)": "RF",
-      "unconnected-(C40-Pad1)": "RF"
+      "/RF/RFN09": "50Ohm_Diff",
+      "/RF/RFN24": "50Ohm_Diff",
+      "/RF/RFP09": "50Ohm_Diff",
+      "/RF/RFP24": "50Ohm_Diff",
+      "Net-(C507-Pad1)": "RF",
+      "Net-(FL501-OUT)": "RF",
+      "Net-(FL502-IN)": "RF",
+      "Net-(FL502-OUT)": "RF",
+      "Net-(J501-In)": "RF",
+      "Net-(SW501-ANT)": "RF",
+      "Net-(SW501-RF1)": "RF",
+      "Net-(SW501-RF2)": "RF"
     },
     "netclass_patterns": []
   },
@@ -438,7 +457,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 300,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,

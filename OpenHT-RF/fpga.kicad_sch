@@ -13,6 +13,83 @@
   )
 
   (lib_symbols
+    (symbol "Connector_Generic:Conn_01x06" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 7.62 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x06" (at 0 -10.16 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x06_1_1"
+        (rectangle (start -1.27 -7.493) (end 0 -7.747)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 -4.953) (end 0 -5.207)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 -2.413) (end 0 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 2.667) (end 0 2.413)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 5.207) (end 0 4.953)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 6.35) (end 1.27 -8.89)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin passive line (at -5.08 5.08 0) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 2.54 0) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 0 0) (length 3.81)
+          (name "Pin_3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
+          (name "Pin_4" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -5.08 0) (length 3.81)
+          (name "Pin_5" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -7.62 0) (length 3.81)
+          (name "Pin_6" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -697,6 +774,58 @@
         )
       )
     )
+    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3.3V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3.3V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3.3V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3.3V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -939,7 +1068,7 @@
     (stroke (width 0) (type default))
     (uuid 03371a17-dded-4d8c-8f3a-1886422a22ef)
   )
-  (wire (pts (xy 166.37 115.57) (xy 166.37 116.84))
+  (wire (pts (xy 165.1 115.57) (xy 165.1 116.84))
     (stroke (width 0) (type default))
     (uuid 06a863db-94bf-43c6-9a64-7d6764e6e4e8)
   )
@@ -1026,6 +1155,10 @@
   (wire (pts (xy 203.2 113.03) (xy 204.47 113.03))
     (stroke (width 0) (type default))
     (uuid 3c93e5c0-8aa2-4f7d-969c-5e0c0185afc2)
+  )
+  (wire (pts (xy 242.57 115.57) (xy 254 115.57))
+    (stroke (width 0) (type default))
+    (uuid 3d549096-08ac-43a5-b88d-3e7ad5e964b2)
   )
   (wire (pts (xy 91.44 88.9) (xy 91.44 91.44))
     (stroke (width 0) (type default))
@@ -1159,7 +1292,7 @@
     (stroke (width 0) (type default))
     (uuid 6c2fa86d-ac1c-4929-ab0d-77bb91653ac7)
   )
-  (wire (pts (xy 166.37 116.84) (xy 170.18 116.84))
+  (wire (pts (xy 165.1 116.84) (xy 170.18 116.84))
     (stroke (width 0) (type default))
     (uuid 6edca7c0-51fa-4745-bcdb-590c2e0757a7)
   )
@@ -1211,6 +1344,10 @@
     (stroke (width 0) (type default))
     (uuid 86c3a00e-4025-4299-8ad6-06f0ed4c162c)
   )
+  (wire (pts (xy 242.57 125.73) (xy 254 125.73))
+    (stroke (width 0) (type default))
+    (uuid 88d155e8-b32a-4f60-9bac-da45bbdcbf34)
+  )
   (wire (pts (xy 238.76 26.67) (xy 251.46 26.67))
     (stroke (width 0) (type default))
     (uuid 88e9a166-0796-4fcf-b2aa-38bec1c5332d)
@@ -1226,6 +1363,10 @@
   (wire (pts (xy 91.44 88.9) (xy 82.55 88.9))
     (stroke (width 0) (type default))
     (uuid 8ea20dfd-44f0-464f-b523-488ba669e417)
+  )
+  (wire (pts (xy 242.57 118.11) (xy 254 118.11))
+    (stroke (width 0) (type default))
+    (uuid 8ec6b36c-8e8e-498b-9993-a2553ad87ecd)
   )
   (wire (pts (xy 17.78 34.29) (xy 26.67 34.29))
     (stroke (width 0) (type default))
@@ -1303,6 +1444,10 @@
     (stroke (width 0) (type default))
     (uuid a7ec4328-77ea-4c9d-abe9-b53a8457fa0e)
   )
+  (wire (pts (xy 242.57 123.19) (xy 254 123.19))
+    (stroke (width 0) (type default))
+    (uuid a8719ce0-efca-4ec7-a63c-606971dd84e9)
+  )
   (wire (pts (xy 154.94 31.75) (xy 162.56 31.75))
     (stroke (width 0) (type default))
     (uuid a8c300a8-2630-4b48-9dad-5a819563193b)
@@ -1315,6 +1460,10 @@
     (stroke (width 0) (type default))
     (uuid ab3c40c3-6a28-43af-bb7a-4551edbf5559)
   )
+  (wire (pts (xy 242.57 120.65) (xy 254 120.65))
+    (stroke (width 0) (type default))
+    (uuid aef9e516-b0d6-4e24-bfe5-3924036f42ce)
+  )
   (wire (pts (xy 102.87 67.31) (xy 111.76 67.31))
     (stroke (width 0) (type default))
     (uuid af7c3c7f-55e6-4bb0-beb1-e9801e4b89d1)
@@ -1322,6 +1471,10 @@
   (wire (pts (xy 118.11 67.31) (xy 119.38 67.31))
     (stroke (width 0) (type default))
     (uuid afaeb270-7330-4de6-a5a8-2852dd88ec41)
+  )
+  (wire (pts (xy 242.57 128.27) (xy 254 128.27))
+    (stroke (width 0) (type default))
+    (uuid b095dfe4-7544-406e-98ad-ac1fa61080a7)
   )
   (wire (pts (xy 203.2 120.65) (xy 204.47 120.65))
     (stroke (width 0) (type default))
@@ -1460,6 +1613,13 @@
     (uuid ffa160d6-3235-4376-878b-9392e880c7cb)
   )
 
+  (text_box "If needed, IO3, IO4, IO5 can be used as SPI bus (SPI2 on the MCU)"
+    (at 153.67 12.7 0) (size 17.78 11.43)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 2096e677-be7a-4af6-8bd8-e9ce6b3d8ccc)
+  )
   (text_box "If pulled high, the SPI pins will be reconfigured as JTAG pins"
     (at 377.19 -90.17 90) (size 11.43 -19.05)
     (stroke (width 0) (type default))
@@ -1483,6 +1643,10 @@
   (label "VCC" (at 194.31 106.68 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 13aef4db-228c-450f-9499-4b23f4c96075)
+  )
+  (label "TDI{slash}SSI" (at 242.57 120.65 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 16fb9c12-11f3-4557-8cba-82ecfc286ff6)
   )
   (label "VCCIO_3V3" (at 182.88 26.67 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1516,9 +1680,17 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 58124ae8-f3cf-44d4-9109-3527f2f4fee5)
   )
+  (label "TDO{slash}SSO" (at 242.57 123.19 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6fbd8679-afe2-49b8-8343-e822e5e66d70)
+  )
   (label "VCCAUX" (at 92.71 44.45 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7736eac6-795d-4c4a-b5fa-37e3506bcef4)
+  )
+  (label "TCK{slash}SCLK" (at 242.57 115.57 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7bf679fa-d7c0-4ac3-b23e-8868db558df5)
   )
   (label "VCCAUX" (at 194.31 120.65 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1527,6 +1699,10 @@
   (label "TDO{slash}SSO" (at 250.19 36.83 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 93c7afb0-21f3-427e-95ba-ca7aa6f0874d)
+  )
+  (label "TMS{slash}SCSN" (at 242.57 118.11 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 968927f7-c8bc-4554-825f-a3beb3a5c1d2)
   )
   (label "VCC" (at 194.31 127 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1661,7 +1837,7 @@
   (symbol (lib_id "power:GND") (at 82.55 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00a8aa31-1a95-439b-a7c4-17249bad7a54)
-    (property "Reference" "#PWR019" (at 82.55 105.41 0)
+    (property "Reference" "#PWR0417" (at 82.55 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 104.14 0)
@@ -1677,7 +1853,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR0417") (unit 1)
         )
       )
     )
@@ -1686,7 +1862,7 @@
   (symbol (lib_id "Device:C") (at 100.33 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 021a0641-37fc-43a9-bf3b-ca2fc6cc9842)
-    (property "Reference" "C7" (at 101.6 92.71 0)
+    (property "Reference" "C417" (at 101.6 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 101.6 97.79 0)
@@ -1703,7 +1879,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C7") (unit 1)
+          (reference "C417") (unit 1)
         )
       )
     )
@@ -1712,7 +1888,7 @@
   (symbol (lib_id "power:GND") (at 93.98 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05290807-c2fb-455f-b599-4fd8e4b04940)
-    (property "Reference" "#PWR080" (at 93.98 82.55 0)
+    (property "Reference" "#PWR0419" (at 93.98 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.98 81.28 0)
@@ -1728,7 +1904,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR0419") (unit 1)
         )
       )
     )
@@ -1737,7 +1913,7 @@
   (symbol (lib_id "Device:C") (at 200.66 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06a8c0d8-1705-44a5-87f3-e3a40c2d5727)
-    (property "Reference" "C59" (at 201.93 69.85 0)
+    (property "Reference" "C428" (at 201.93 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 201.93 74.93 0)
@@ -1754,7 +1930,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C59") (unit 1)
+          (reference "C428") (unit 1)
         )
       )
     )
@@ -1763,7 +1939,7 @@
   (symbol (lib_id "power:GND") (at 60.96 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b1002d4-1347-4c7a-8faa-89f6dda77e4f)
-    (property "Reference" "#PWR027" (at 60.96 59.69 0)
+    (property "Reference" "#PWR0412" (at 60.96 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 58.42 0)
@@ -1779,7 +1955,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR0412") (unit 1)
         )
       )
     )
@@ -1788,7 +1964,7 @@
   (symbol (lib_id "power:GND") (at 46.99 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c3e8332-5222-45c0-91a7-31c533e30219)
-    (property "Reference" "#PWR015" (at 46.99 105.41 0)
+    (property "Reference" "#PWR0409" (at 46.99 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 46.99 104.14 0)
@@ -1804,7 +1980,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR0409") (unit 1)
         )
       )
     )
@@ -1813,7 +1989,7 @@
   (symbol (lib_id "Device:C") (at 102.87 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10ff3e52-bb0c-4b16-85b0-41f7dcc3846d)
-    (property "Reference" "C58" (at 104.14 69.85 0)
+    (property "Reference" "C418" (at 104.14 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 104.14 74.93 0)
@@ -1830,7 +2006,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C58") (unit 1)
+          (reference "C418") (unit 1)
         )
       )
     )
@@ -1839,7 +2015,7 @@
   (symbol (lib_id "Device:R") (at 269.24 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 11df48f8-cf81-422c-a3c8-5311b21440bb)
-    (property "Reference" "R6" (at 271.78 32.385 0)
+    (property "Reference" "R401" (at 271.78 32.385 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10kR" (at 271.78 34.925 0)
@@ -1856,7 +2032,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "R6") (unit 1)
+          (reference "R401") (unit 1)
         )
       )
     )
@@ -1865,7 +2041,7 @@
   (symbol (lib_id "Device:FerriteBead_Small") (at 29.21 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1666b050-382a-4dfc-a5c5-9524e3284d5c)
-    (property "Reference" "FB2" (at 29.1719 39.37 90)
+    (property "Reference" "FB403" (at 29.1719 39.37 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "120R" (at 29.1719 41.91 90)
@@ -1882,7 +2058,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "FB2") (unit 1)
+          (reference "FB403") (unit 1)
         )
       )
     )
@@ -1891,7 +2067,7 @@
   (symbol (lib_id "M17_FPGA:LIFCL-40-7SG72I") (at 208.28 62.23 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 195f750d-9e10-47d7-b5bf-1c8252cbfba6)
-    (property "Reference" "U1" (at 208.28 60.96 0)
+    (property "Reference" "U401" (at 208.28 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LIFCL-40-7SG72I" (at 224.79 60.96 0)
@@ -1979,7 +2155,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "U1") (unit 4)
+          (reference "U401") (unit 4)
         )
       )
     )
@@ -1988,7 +2164,7 @@
   (symbol (lib_id "Device:C") (at 107.95 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1bb58286-a6e5-4e2c-b477-2d66cab6c48c)
-    (property "Reference" "C55" (at 109.22 29.21 0)
+    (property "Reference" "C419" (at 109.22 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 109.22 34.29 0)
@@ -2005,7 +2181,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C55") (unit 1)
+          (reference "C419") (unit 1)
         )
       )
     )
@@ -2014,7 +2190,7 @@
   (symbol (lib_id "Device:C") (at 82.55 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1eee55e3-b3bc-4873-995e-7b507d7fd2ef)
-    (property "Reference" "C5" (at 83.82 92.71 0)
+    (property "Reference" "C414" (at 83.82 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 83.82 97.79 0)
@@ -2031,7 +2207,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C5") (unit 1)
+          (reference "C414") (unit 1)
         )
       )
     )
@@ -2040,7 +2216,7 @@
   (symbol (lib_id "power:GND") (at 115.57 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21db9cea-4e4f-49b8-8bfc-76a11aa06047)
-    (property "Reference" "#PWR079" (at 115.57 41.91 0)
+    (property "Reference" "#PWR0425" (at 115.57 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 40.64 0)
@@ -2056,7 +2232,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR0425") (unit 1)
         )
       )
     )
@@ -2065,7 +2241,7 @@
   (symbol (lib_id "power:GND") (at 107.95 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 224902d5-5d3c-42f2-bee7-768c6f14f92f)
-    (property "Reference" "#PWR078" (at 107.95 41.91 0)
+    (property "Reference" "#PWR0422" (at 107.95 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 107.95 40.64 0)
@@ -2081,7 +2257,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR0422") (unit 1)
         )
       )
     )
@@ -2090,7 +2266,7 @@
   (symbol (lib_id "power:GND") (at 269.24 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22ee13f6-c20c-45a4-9647-0abc5f64aa78)
-    (property "Reference" "#PWR012" (at 269.24 57.15 0)
+    (property "Reference" "#PWR0436" (at 269.24 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 269.24 55.88 0)
@@ -2106,7 +2282,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR0436") (unit 1)
         )
       )
     )
@@ -2115,7 +2291,7 @@
   (symbol (lib_id "power:+3V3") (at 17.78 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 234fb7cc-8e8b-47a5-8976-bea86ecf7d3e)
-    (property "Reference" "#PWR010" (at 17.78 36.83 0)
+    (property "Reference" "#PWR0402" (at 17.78 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 17.78 29.21 0)
@@ -2131,7 +2307,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR0402") (unit 1)
         )
       )
     )
@@ -2140,7 +2316,7 @@
   (symbol (lib_id "Device:C") (at 109.22 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a04d276-acf9-48b6-96dc-727238a58217)
-    (property "Reference" "C8" (at 110.49 92.71 0)
+    (property "Reference" "C420" (at 110.49 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 110.49 97.79 0)
@@ -2157,7 +2333,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C8") (unit 1)
+          (reference "C420") (unit 1)
         )
       )
     )
@@ -2166,7 +2342,7 @@
   (symbol (lib_id "Device:C") (at 64.77 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f7c48b2-a58d-4a40-8269-ee94c0eb6838)
-    (property "Reference" "C3" (at 66.04 92.71 0)
+    (property "Reference" "C410" (at 66.04 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 66.04 97.79 0)
@@ -2183,7 +2359,32 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C3") (unit 1)
+          (reference "C410") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 242.57 125.73 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3544b020-2d91-4cc0-a6e2-b5badb914844)
+    (property "Reference" "#PWR0434" (at 246.38 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 238.76 126.365 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 242.57 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 242.57 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6808a5b9-0deb-478f-ab1c-5ab078cdad52))
+    (instances
+      (project "OpenHT-RF"
+        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
+          (reference "#PWR0434") (unit 1)
         )
       )
     )
@@ -2192,7 +2393,7 @@
   (symbol (lib_id "power:GND") (at 64.77 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36b07dee-91db-4b27-92e4-a71e004c7a24)
-    (property "Reference" "#PWR017" (at 64.77 105.41 0)
+    (property "Reference" "#PWR0413" (at 64.77 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.77 104.14 0)
@@ -2208,7 +2409,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR0413") (unit 1)
         )
       )
     )
@@ -2217,7 +2418,7 @@
   (symbol (lib_id "M17_FPGA:LIFCL-40-7SG72I") (at 124.46 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38f24e60-3773-4258-9eeb-8b2245293da1)
-    (property "Reference" "U1" (at 124.46 20.32 0)
+    (property "Reference" "U401" (at 124.46 20.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LIFCL-40-7SG72I" (at 140.97 20.32 0)
@@ -2305,7 +2506,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "U1") (unit 1)
+          (reference "U401") (unit 1)
         )
       )
     )
@@ -2314,7 +2515,7 @@
   (symbol (lib_id "power:GND") (at 186.69 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3adfb423-a281-449b-af38-52aa598e4e2d)
-    (property "Reference" "#PWR039" (at 186.69 132.08 0)
+    (property "Reference" "#PWR0428" (at 186.69 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 186.69 130.81 0)
@@ -2330,7 +2531,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR0428") (unit 1)
         )
       )
     )
@@ -2339,7 +2540,7 @@
   (symbol (lib_id "M17_FPGA:LIFCL-40-7SG72I") (at 123.19 104.14 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b3d4c95-44c3-451b-a528-285d0e7b7395)
-    (property "Reference" "U1" (at 123.19 102.87 0)
+    (property "Reference" "U401" (at 123.19 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LIFCL-40-7SG72I" (at 142.24 102.87 0)
@@ -2427,7 +2628,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "U1") (unit 5)
+          (reference "U401") (unit 5)
         )
       )
     )
@@ -2436,7 +2637,7 @@
   (symbol (lib_id "Device:C") (at 46.99 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3cefe1f4-798c-49b0-a5c2-f7251545c7c9)
-    (property "Reference" "C1" (at 48.26 92.71 0)
+    (property "Reference" "C406" (at 48.26 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 48.26 97.79 0)
@@ -2453,7 +2654,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C1") (unit 1)
+          (reference "C406") (unit 1)
         )
       )
     )
@@ -2462,7 +2663,7 @@
   (symbol (lib_id "M17_FPGA:LIFCL-40-7SG72I") (at 209.55 101.6 0) (unit 6)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 407c0ac9-98d9-4096-a366-07902d3982d8)
-    (property "Reference" "U1" (at 209.55 100.33 0)
+    (property "Reference" "U401" (at 209.55 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LIFCL-40-7SG72I" (at 224.79 100.33 0)
@@ -2550,7 +2751,37 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "U1") (unit 6)
+          (reference "U401") (unit 6)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x06") (at 259.08 120.65 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4118564b-e0b9-4428-abed-79a0c3a0bce9)
+    (property "Reference" "J401" (at 261.62 121.285 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x06" (at 261.62 123.825 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 259.08 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 259.08 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ce375b7b-1c99-44fc-ad1e-cc02ee1af65f))
+    (pin "2" (uuid fa68e716-2a43-47e5-a537-90b650004b13))
+    (pin "3" (uuid 11cec7f0-719c-4ccd-926b-3f707eb7391c))
+    (pin "4" (uuid 9df457fb-6571-4955-86fe-de2d18b06c98))
+    (pin "5" (uuid a92267a7-f512-4e4a-be70-d4b662d71a27))
+    (pin "6" (uuid 002111b6-1a74-430c-92d1-7d9fd2b393a9))
+    (instances
+      (project "OpenHT-RF"
+        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
+          (reference "J401") (unit 1)
         )
       )
     )
@@ -2559,7 +2790,7 @@
   (symbol (lib_id "power:GND") (at 52.07 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4147ead7-c5db-49c9-b5d5-97224cb78984)
-    (property "Reference" "#PWR026" (at 52.07 59.69 0)
+    (property "Reference" "#PWR0410" (at 52.07 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 52.07 58.42 0)
@@ -2575,7 +2806,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR0410") (unit 1)
         )
       )
     )
@@ -2584,7 +2815,7 @@
   (symbol (lib_id "power:GND") (at 193.04 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 454e68b0-f7db-4cf5-850d-7c90c68fada7)
-    (property "Reference" "#PWR032" (at 193.04 41.91 0)
+    (property "Reference" "#PWR0429" (at 193.04 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 40.64 0)
@@ -2600,7 +2831,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR0429") (unit 1)
         )
       )
     )
@@ -2609,7 +2840,7 @@
   (symbol (lib_id "power:GND") (at 29.21 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46714187-c948-41fa-a590-3c4157db1e14)
-    (property "Reference" "#PWR023" (at 29.21 105.41 0)
+    (property "Reference" "#PWR0405" (at 29.21 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 29.21 104.14 0)
@@ -2625,7 +2856,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR0405") (unit 1)
         )
       )
     )
@@ -2634,7 +2865,7 @@
   (symbol (lib_id "Device:C") (at 91.44 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 492c151c-b6e5-4f8c-a4cd-2aeecb3e7299)
-    (property "Reference" "C6" (at 92.71 92.71 0)
+    (property "Reference" "C415" (at 92.71 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 92.71 97.79 0)
@@ -2651,16 +2882,16 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C6") (unit 1)
+          (reference "C415") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Device:FerriteBead_Small") (at 172.72 116.84 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 4d0dbec5-0c63-4a21-a0ac-63ebbb458f0e)
-    (property "Reference" "FB4" (at 172.6819 111.76 90)
+    (property "Reference" "FB404" (at 172.6819 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "120R" (at 172.6819 114.3 90)
@@ -2677,16 +2908,16 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "FB4") (unit 1)
+          (reference "FB404") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Device:C") (at 179.07 121.92 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 4d4967a5-86d8-40cc-a4eb-f20131e3549b)
-    (property "Reference" "C17" (at 180.34 119.38 0)
+    (property "Reference" "C423" (at 180.34 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 180.34 124.46 0)
@@ -2703,7 +2934,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C17") (unit 1)
+          (reference "C423") (unit 1)
         )
       )
     )
@@ -2712,7 +2943,7 @@
   (symbol (lib_id "Device:C") (at 193.04 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 503fd10a-2bf8-4f7f-9eb1-d7bda23cd32f)
-    (property "Reference" "C18" (at 194.31 29.21 0)
+    (property "Reference" "C425" (at 194.31 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 194.31 34.29 0)
@@ -2729,7 +2960,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C18") (unit 1)
+          (reference "C425") (unit 1)
         )
       )
     )
@@ -2738,7 +2969,7 @@
   (symbol (lib_id "Device:C") (at 52.07 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 50bd4d95-bb94-4ba2-a1f2-d5e862fb7ebb)
-    (property "Reference" "C12" (at 53.34 46.99 0)
+    (property "Reference" "C407" (at 53.34 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 53.34 52.07 0)
@@ -2755,7 +2986,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C12") (unit 1)
+          (reference "C407") (unit 1)
         )
       )
     )
@@ -2764,7 +2995,7 @@
   (symbol (lib_id "Device:C") (at 20.32 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 50decaeb-66d3-4381-a0c8-535c8e6b9eea)
-    (property "Reference" "C9" (at 21.59 92.71 0)
+    (property "Reference" "C401" (at 21.59 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 21.59 97.79 0)
@@ -2781,7 +3012,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C9") (unit 1)
+          (reference "C401") (unit 1)
         )
       )
     )
@@ -2790,7 +3021,7 @@
   (symbol (lib_id "power:GND") (at 111.76 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58cb790c-d44a-4da9-bdb3-5e02bb710ab8)
-    (property "Reference" "#PWR033" (at 111.76 82.55 0)
+    (property "Reference" "#PWR0424" (at 111.76 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 81.28 0)
@@ -2806,7 +3037,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR0424") (unit 1)
         )
       )
     )
@@ -2815,7 +3046,7 @@
   (symbol (lib_id "M17_FPGA:LIFCL-40-7SG72I") (at 208.28 21.59 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b8055dc-c012-4d12-bff0-2e6e478b15cd)
-    (property "Reference" "U1" (at 208.28 20.32 0)
+    (property "Reference" "U401" (at 208.28 20.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LIFCL-40-7SG72I" (at 224.79 20.32 0)
@@ -2903,7 +3134,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "U1") (unit 2)
+          (reference "U401") (unit 2)
         )
       )
     )
@@ -2912,7 +3143,7 @@
   (symbol (lib_id "Device:C") (at 200.66 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 608a4694-caa2-45b5-a297-9765a088ea4c)
-    (property "Reference" "C21" (at 201.93 29.21 0)
+    (property "Reference" "C427" (at 201.93 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 201.93 34.29 0)
@@ -2929,7 +3160,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C21") (unit 1)
+          (reference "C427") (unit 1)
         )
       )
     )
@@ -2938,7 +3169,7 @@
   (symbol (lib_id "power:GND") (at 102.87 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67fc0d4d-b63d-43cc-a63b-bc0ed97a9f1c)
-    (property "Reference" "#PWR081" (at 102.87 82.55 0)
+    (property "Reference" "#PWR0421" (at 102.87 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 81.28 0)
@@ -2954,7 +3185,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR0421") (unit 1)
         )
       )
     )
@@ -2963,7 +3194,7 @@
   (symbol (lib_id "power:GND") (at 73.66 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a7ce503-7ddb-46f9-88fc-56a86e817e87)
-    (property "Reference" "#PWR018" (at 73.66 105.41 0)
+    (property "Reference" "#PWR0415" (at 73.66 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73.66 104.14 0)
@@ -2979,7 +3210,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR0415") (unit 1)
         )
       )
     )
@@ -2988,7 +3219,7 @@
   (symbol (lib_id "power:GND") (at 55.88 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7589f46e-81d3-4de5-a54a-90222c7ce578)
-    (property "Reference" "#PWR016" (at 55.88 105.41 0)
+    (property "Reference" "#PWR0411" (at 55.88 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 104.14 0)
@@ -3004,7 +3235,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR0411") (unit 1)
         )
       )
     )
@@ -3013,7 +3244,7 @@
   (symbol (lib_id "Device:C") (at 55.88 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c62e437-dd0c-4569-972e-9f406c8a8dfe)
-    (property "Reference" "C2" (at 57.15 92.71 0)
+    (property "Reference" "C408" (at 57.15 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 57.15 97.79 0)
@@ -3030,7 +3261,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C2") (unit 1)
+          (reference "C408") (unit 1)
         )
       )
     )
@@ -3039,7 +3270,7 @@
   (symbol (lib_id "power:+1V0") (at 17.78 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ca0f24f-2f4d-4556-828d-6e133f861226)
-    (property "Reference" "#PWR013" (at 17.78 26.67 0)
+    (property "Reference" "#PWR0401" (at 17.78 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V0" (at 17.78 19.05 0)
@@ -3055,7 +3286,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR0401") (unit 1)
         )
       )
     )
@@ -3064,7 +3295,7 @@
   (symbol (lib_id "power:GND") (at 200.66 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d403566-bf6d-42c9-872a-7dd26bff032a)
-    (property "Reference" "#PWR082" (at 200.66 82.55 0)
+    (property "Reference" "#PWR0432" (at 200.66 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.66 81.28 0)
@@ -3080,7 +3311,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR0432") (unit 1)
         )
       )
     )
@@ -3089,7 +3320,7 @@
   (symbol (lib_id "Device:C") (at 73.66 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 823293a8-a6ce-400f-8a25-b8e51d4560f6)
-    (property "Reference" "C4" (at 74.93 92.71 0)
+    (property "Reference" "C412" (at 74.93 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 74.93 97.79 0)
@@ -3106,7 +3337,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C4") (unit 1)
+          (reference "C412") (unit 1)
         )
       )
     )
@@ -3115,7 +3346,7 @@
   (symbol (lib_id "power:GND") (at 179.07 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82517eac-ec7b-4ae5-9738-8c31a9d78747)
-    (property "Reference" "#PWR031" (at 179.07 132.08 0)
+    (property "Reference" "#PWR0427" (at 179.07 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.07 130.81 0)
@@ -3131,7 +3362,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR0427") (unit 1)
         )
       )
     )
@@ -3140,7 +3371,7 @@
   (symbol (lib_id "Device:C") (at 29.21 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ee7b022-ab7b-4262-ac06-90e8a6409a1a)
-    (property "Reference" "C10" (at 30.48 92.71 0)
+    (property "Reference" "C402" (at 30.48 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 30.48 97.79 0)
@@ -3157,7 +3388,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C10") (unit 1)
+          (reference "C402") (unit 1)
         )
       )
     )
@@ -3166,7 +3397,7 @@
   (symbol (lib_id "power:GND") (at 193.04 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f480ff4-3dad-49c7-97f7-e1d4cace207e)
-    (property "Reference" "#PWR034" (at 193.04 82.55 0)
+    (property "Reference" "#PWR0430" (at 193.04 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 81.28 0)
@@ -3182,7 +3413,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR0430") (unit 1)
         )
       )
     )
@@ -3191,7 +3422,7 @@
   (symbol (lib_id "Device:C") (at 60.96 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9203f502-ea04-493c-83db-e4488e577a39)
-    (property "Reference" "C13" (at 62.23 46.99 0)
+    (property "Reference" "C409" (at 62.23 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 62.23 52.07 0)
@@ -3208,7 +3439,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C13") (unit 1)
+          (reference "C409") (unit 1)
         )
       )
     )
@@ -3217,7 +3448,7 @@
   (symbol (lib_id "M17_FPGA:LIFCL-40-7SG72I") (at 124.46 62.23 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 972243a5-60a0-414d-8bf5-61680f0f2b91)
-    (property "Reference" "U1" (at 124.46 60.96 0)
+    (property "Reference" "U401" (at 124.46 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LIFCL-40-7SG72I" (at 140.97 60.96 0)
@@ -3305,7 +3536,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "U1") (unit 3)
+          (reference "U401") (unit 3)
         )
       )
     )
@@ -3314,7 +3545,7 @@
   (symbol (lib_id "power:GND") (at 34.29 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a0ccdd5-4b63-434d-bc62-ed99294c64ad)
-    (property "Reference" "#PWR038" (at 34.29 59.69 0)
+    (property "Reference" "#PWR0406" (at 34.29 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 34.29 58.42 0)
@@ -3330,7 +3561,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR0406") (unit 1)
         )
       )
     )
@@ -3339,7 +3570,7 @@
   (symbol (lib_id "power:GND") (at 20.32 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9d79f77d-98c2-4a7e-9053-01e28439290b)
-    (property "Reference" "#PWR014" (at 20.32 105.41 0)
+    (property "Reference" "#PWR0404" (at 20.32 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 20.32 104.14 0)
@@ -3355,7 +3586,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR0404") (unit 1)
         )
       )
     )
@@ -3364,7 +3595,7 @@
   (symbol (lib_id "Device:C") (at 34.29 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9d8c4efb-dc23-4d6e-8320-bc5b5699d294)
-    (property "Reference" "C24" (at 35.56 46.99 0)
+    (property "Reference" "C403" (at 35.56 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 35.56 52.07 0)
@@ -3381,16 +3612,16 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C24") (unit 1)
+          (reference "C403") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Device:C") (at 186.69 121.92 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 9fd49019-3e5f-42e8-932a-1c2a4b926cef)
-    (property "Reference" "C25" (at 187.96 119.38 0)
+    (property "Reference" "C424" (at 187.96 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 187.96 124.46 0)
@@ -3407,7 +3638,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C25") (unit 1)
+          (reference "C424") (unit 1)
         )
       )
     )
@@ -3416,7 +3647,7 @@
   (symbol (lib_id "power:GND") (at 91.44 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a394a59d-42f8-416e-bb94-f4a0dd304aa6)
-    (property "Reference" "#PWR020" (at 91.44 105.41 0)
+    (property "Reference" "#PWR0418" (at 91.44 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 104.14 0)
@@ -3432,7 +3663,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR0418") (unit 1)
         )
       )
     )
@@ -3441,7 +3672,7 @@
   (symbol (lib_id "power:GND") (at 203.2 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4d031d9-a49c-46d2-bcbc-60fe02d17717)
-    (property "Reference" "#PWR051" (at 203.2 158.75 0)
+    (property "Reference" "#PWR0433" (at 203.2 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 157.48 0)
@@ -3457,7 +3688,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR0433") (unit 1)
         )
       )
     )
@@ -3466,7 +3697,7 @@
   (symbol (lib_id "Device:FerriteBead_Small") (at 29.21 34.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a7db8404-5a2c-4ca6-9fa6-b744b2782780)
-    (property "Reference" "FB3" (at 29.1719 29.21 90)
+    (property "Reference" "FB402" (at 29.1719 29.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FerriteBead_Small" (at 29.1719 31.75 90)
@@ -3483,7 +3714,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "FB3") (unit 1)
+          (reference "FB402") (unit 1)
         )
       )
     )
@@ -3492,7 +3723,7 @@
   (symbol (lib_id "power:GND") (at 100.33 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a88ce393-9110-45a1-8766-5f71236dccaf)
-    (property "Reference" "#PWR021" (at 100.33 105.41 0)
+    (property "Reference" "#PWR0420" (at 100.33 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 100.33 104.14 0)
@@ -3508,7 +3739,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR0420") (unit 1)
         )
       )
     )
@@ -3517,7 +3748,7 @@
   (symbol (lib_id "power:GND") (at 200.66 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5cbd9b5-ae65-41e8-9224-dd58d613be48)
-    (property "Reference" "#PWR035" (at 200.66 41.91 0)
+    (property "Reference" "#PWR0431" (at 200.66 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.66 40.64 0)
@@ -3533,7 +3764,32 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR0431") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+1V8") (at 165.1 115.57 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bb0b626c-e7ac-46c7-adf3-1ec7b857be3e)
+    (property "Reference" "#PWR0426" (at 165.1 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+1V8" (at 165.1 111.76 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 165.1 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 165.1 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 53748910-b480-4401-9b7d-271eaf01df5a))
+    (instances
+      (project "OpenHT-RF"
+        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
+          (reference "#PWR0426") (unit 1)
         )
       )
     )
@@ -3542,7 +3798,7 @@
   (symbol (lib_id "power:GND") (at 43.18 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bbc42d85-63ca-43e6-beb0-ffbd215eaea1)
-    (property "Reference" "#PWR025" (at 43.18 59.69 0)
+    (property "Reference" "#PWR0408" (at 43.18 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.18 58.42 0)
@@ -3558,7 +3814,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR0408") (unit 1)
         )
       )
     )
@@ -3567,7 +3823,7 @@
   (symbol (lib_id "Device:C") (at 115.57 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcafdbd5-b148-4e7c-9a60-5cf538a4857a)
-    (property "Reference" "C56" (at 116.84 29.21 0)
+    (property "Reference" "C422" (at 116.84 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 116.84 34.29 0)
@@ -3584,7 +3840,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C56") (unit 1)
+          (reference "C422") (unit 1)
         )
       )
     )
@@ -3593,7 +3849,7 @@
   (symbol (lib_id "Device:C") (at 69.85 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcf93409-394a-45f8-b1b3-98f1ae37ef97)
-    (property "Reference" "C14" (at 71.12 46.99 0)
+    (property "Reference" "C411" (at 71.12 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 71.12 52.07 0)
@@ -3610,7 +3866,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C14") (unit 1)
+          (reference "C411") (unit 1)
         )
       )
     )
@@ -3619,7 +3875,7 @@
   (symbol (lib_id "Device:C") (at 43.18 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf6ad38d-81b5-4ff3-a80b-35c18ccee87e)
-    (property "Reference" "C16" (at 44.45 46.99 0)
+    (property "Reference" "C405" (at 44.45 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 44.45 52.07 0)
@@ -3636,7 +3892,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C16") (unit 1)
+          (reference "C405") (unit 1)
         )
       )
     )
@@ -3645,7 +3901,7 @@
   (symbol (lib_id "Device:C") (at 93.98 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c671f3dc-d1ac-4d41-af6a-66ee13de89a3)
-    (property "Reference" "C57" (at 95.25 69.85 0)
+    (property "Reference" "C416" (at 95.25 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 95.25 74.93 0)
@@ -3662,7 +3918,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C57") (unit 1)
+          (reference "C416") (unit 1)
         )
       )
     )
@@ -3671,7 +3927,7 @@
   (symbol (lib_id "Jumper:Jumper_3_Bridged12") (at 269.24 44.45 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c6a30113-63b0-4c07-8cb8-619f0b75169b)
-    (property "Reference" "JP1" (at 271.78 43.815 90)
+    (property "Reference" "JP401" (at 271.78 43.815 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Jumper_3_Bridged12" (at 247.65 48.26 90)
@@ -3689,7 +3945,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "JP1") (unit 1)
+          (reference "JP401") (unit 1)
         )
       )
     )
@@ -3698,7 +3954,7 @@
   (symbol (lib_id "power:GND") (at 109.22 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cce1f49b-1193-410b-b02b-c92346676bed)
-    (property "Reference" "#PWR022" (at 109.22 105.41 0)
+    (property "Reference" "#PWR0423" (at 109.22 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 104.14 0)
@@ -3714,7 +3970,32 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR0423") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 242.57 128.27 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d3852894-7103-4ff0-8560-4e62f5e2a659)
+    (property "Reference" "#PWR0435" (at 242.57 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 242.57 133.35 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 242.57 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 242.57 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7025a225-3e58-4090-bada-51ec001ee289))
+    (instances
+      (project "OpenHT-RF"
+        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
+          (reference "#PWR0435") (unit 1)
         )
       )
     )
@@ -3723,7 +4004,7 @@
   (symbol (lib_id "power:+1V8") (at 17.78 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd9af146-977a-4007-a30d-55fcb7960012)
-    (property "Reference" "#PWR09" (at 17.78 46.99 0)
+    (property "Reference" "#PWR0403" (at 17.78 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 17.78 39.37 0)
@@ -3739,7 +4020,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR0403") (unit 1)
         )
       )
     )
@@ -3748,7 +4029,7 @@
   (symbol (lib_id "Device:FerriteBead_Small") (at 29.21 24.13 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dfe34938-8e9d-4de8-af8b-37789c50dd0c)
-    (property "Reference" "FB1" (at 29.1719 19.05 90)
+    (property "Reference" "FB401" (at 29.1719 19.05 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FerriteBead_Small" (at 29.1719 21.59 90)
@@ -3765,7 +4046,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "FB1") (unit 1)
+          (reference "FB401") (unit 1)
         )
       )
     )
@@ -3774,7 +4055,7 @@
   (symbol (lib_id "Device:C") (at 111.76 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e1499159-38c1-422d-8d83-fdf88b0b583c)
-    (property "Reference" "C19" (at 113.03 69.85 0)
+    (property "Reference" "C421" (at 113.03 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 113.03 74.93 0)
@@ -3791,7 +4072,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C19") (unit 1)
+          (reference "C421") (unit 1)
         )
       )
     )
@@ -3800,7 +4081,7 @@
   (symbol (lib_id "power:GND") (at 78.74 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e339ca59-2259-4627-873d-6f895fb29cfc)
-    (property "Reference" "#PWR029" (at 78.74 59.69 0)
+    (property "Reference" "#PWR0416" (at 78.74 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.74 58.42 0)
@@ -3816,7 +4097,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR0416") (unit 1)
         )
       )
     )
@@ -3825,7 +4106,7 @@
   (symbol (lib_id "power:GND") (at 69.85 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e566776d-92d3-449f-8bdf-549a6b8b9008)
-    (property "Reference" "#PWR028" (at 69.85 59.69 0)
+    (property "Reference" "#PWR0414" (at 69.85 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 69.85 58.42 0)
@@ -3841,7 +4122,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR0414") (unit 1)
         )
       )
     )
@@ -3850,7 +4131,7 @@
   (symbol (lib_id "Device:C") (at 78.74 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec1ff1af-276b-4e55-83cd-a1b86dc75da3)
-    (property "Reference" "C15" (at 80.01 46.99 0)
+    (property "Reference" "C413" (at 80.01 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 80.01 52.07 0)
@@ -3867,7 +4148,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C15") (unit 1)
+          (reference "C413") (unit 1)
         )
       )
     )
@@ -3876,7 +4157,7 @@
   (symbol (lib_id "Device:C") (at 38.1 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f896aa51-e657-480c-b688-3a8acd5d3b5e)
-    (property "Reference" "C11" (at 39.37 92.71 0)
+    (property "Reference" "C404" (at 39.37 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 39.37 97.79 0)
@@ -3893,32 +4174,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C11") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+1V8") (at 166.37 115.57 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid fb49822f-9d84-40c2-89a2-225f85d6af1e)
-    (property "Reference" "#PWR011" (at 166.37 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+1V8_A" (at 166.37 111.76 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 166.37 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 166.37 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5ae23557-b643-4152-8651-f583ffcc9b2f))
-    (instances
-      (project "OpenHT-RF"
-        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR011") (unit 1)
+          (reference "C404") (unit 1)
         )
       )
     )
@@ -3927,7 +4183,7 @@
   (symbol (lib_id "Device:C") (at 193.04 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd8d904e-4741-48ca-84d9-7efdc4fc3655)
-    (property "Reference" "C20" (at 194.31 69.85 0)
+    (property "Reference" "C426" (at 194.31 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 194.31 74.93 0)
@@ -3944,7 +4200,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "C20") (unit 1)
+          (reference "C426") (unit 1)
         )
       )
     )
@@ -3953,7 +4209,7 @@
   (symbol (lib_id "power:GND") (at 38.1 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffd448d0-227d-4872-9698-37750653e0c1)
-    (property "Reference" "#PWR024" (at 38.1 105.41 0)
+    (property "Reference" "#PWR0407" (at 38.1 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 104.14 0)
@@ -3969,7 +4225,7 @@
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR0407") (unit 1)
         )
       )
     )
