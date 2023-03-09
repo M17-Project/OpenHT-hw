@@ -2873,7 +2873,7 @@
     (property "Reference" "FB501" (at 40.6019 21.59 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "FerriteBead_Small" (at 40.6019 24.13 90)
+    (property "Value" "BLM15AG121SN1D" (at 40.6019 24.13 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 40.64 28.448 90)
