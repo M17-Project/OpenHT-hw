@@ -35,10 +35,11 @@ It was decided to pick a buck converter to keep a good power efficiency. The tri
 
  * Output: 3.3 V -> R1 = 9.53 kR, R2 = 43 kR (0.1% tolerance)
 
-    |   | Min.   | Nom.  | Max.  |
-    |---|--------|-------|-------|
-    | V | 3.269V | 3.307 | 3.346 |
-    | % | -0.95  | 0.22  | 1.39  |
+    |        | Min.    | Nom.    | Max.    |
+    |--------|---------|---------|---------|
+    | V      | 3.269 V | 3.307 V | 3.346 V |
+    | %      | -0.95   | 0.22    | 1.39    |
+    | Margin | 68 mV   |         | 53 mV   |
 
     N.B. The tolerance takes into account the tolerance of the feedback voltage reference (1%).
 
@@ -75,10 +76,11 @@ It was decided to pick a buck converter to keep a good power efficiency. The tri
 
  * Output: 1.8V -> R1 = 10 kR, R2 = 20 kR (0.1% tolerance)
 
-    |   | Min.   | Nom.  | Max.  |
-    |---|--------|-------|-------|
-    | V | 1.779V | 1.8   | 1.82  |
-    | % | -1.13  | 0     | 1.13  |
+    |        | Min.    | Nom.  | Max.   |
+    |--------|---------|-------|--------|
+    | V      | 1.779 V | 1.8 V | 1.82 V |
+    | %      | -1.13   | 0     | 1.13   |
+    | Margin | 33 mV   |       | 34 mV  |
 
     N.B. The tolerance takes into account the tolerance of the feedback voltage reference (1%).
  * Output current: 250 mA. Picking a lower current would not make much sense as the devices goes into PSM when below 230 mA.
@@ -110,6 +112,15 @@ It was decided to pick a buck converter to keep a good power efficiency. The tri
     * fp = 37913 Hz, the pole created by Cc must be lower than that. -> Cc = 0.96 nF, rounded up to 1 nF
     * Cb = 4.5 pF (for a Resr of 1.5mOhm)
 
+## 1.0 V LDO
 
+* Divider bridge
+    Output = 1.0V, feedback = 0.8V at 1% accuracy
+
+    |        | Min.    | Nom. | Max.    |
+    |--------|---------|------|---------|
+    | V      | 0.989 V | 1    | 1.01 V  |
+    | %      | -1.04   | 0    | 1.04    |
+    | Margin | 19.6 mV |      | 19.6 mv |
 
 -- Morgan ON4MOD
