@@ -3,4 +3,5 @@
   (lib (name "M17_QFN")(type "KiCad")(uri "${M17_LIBRARY}/M17_QFN.pretty")(options "")(descr ""))
   (lib (name "M17_misc_active")(type "KiCad")(uri "${M17_LIBRARY}/M17_misc_active.pretty")(options "")(descr ""))
   (lib (name "M17_misc_passive")(type "KiCad")(uri "${M17_LIBRARY}/M17_misc_passive.pretty")(options "")(descr ""))
+  (lib (name "M17_logos")(type "KiCad")(uri "${M17_LIBRARY}/M17_logos.pretty")(options "")(descr ""))
 )
