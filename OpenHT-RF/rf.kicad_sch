@@ -3124,7 +3124,7 @@
     (property "Value" "Conn_Coaxial" (at 215.9001 151.4305 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 213.36 149.86 0)
+    (property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" (at 213.36 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (at 213.36 149.86 0)
