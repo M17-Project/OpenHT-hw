@@ -2021,7 +2021,7 @@
     (property "Value" "AT86RF215" (at 160.02 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "M17_QFN:VQFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" (at 130.81 41.91 0)
+    (property "Footprint" "M17_QFN:VQFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm_ThermalVias" (at 130.81 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Atmel-42415-WIRELESS-AT86RF215_Datasheet.pdf#%5B%7B%22num%22%3A91%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C33%2C245%2C0%5D" (at 130.81 41.91 0)
