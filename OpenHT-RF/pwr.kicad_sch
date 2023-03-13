@@ -502,7 +502,7 @@
           (name "VDIV" (effects (font (size 1.27 1.27))))
           (number "30" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at -5.08 -20.32 0) (length 5.08)
+        (pin passive line (at -5.08 -20.32 0) (length 5.08)
           (name "PAD" (effects (font (size 1.27 1.27))))
           (number "33" (effects (font (size 1.27 1.27))))
         )
