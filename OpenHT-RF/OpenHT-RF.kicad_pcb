@@ -86,7 +86,7 @@
   (net 8 "Net-(U202B-COMP1)")
   (net 9 "Net-(U202C-COMP2)")
   (net 10 "Net-(U202B-BST1)")
-  (net 11 "+3.3V")
+  (net 11 "unconnected-(J303-Pin_1-Pad1)")
   (net 12 "Net-(U202C-BST2)")
   (net 13 "+1V8")
   (net 14 "Net-(C216-Pad1)")
