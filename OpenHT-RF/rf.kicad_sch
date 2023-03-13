@@ -890,6 +890,10 @@
           (name "CTL1" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
+        (pin no_connect line (at 17.78 -2.54 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
       )
     )
     (symbol "M17_misc_active:ECS-TXO-20CSMV" (in_bom yes) (on_board yes)
@@ -3391,6 +3395,7 @@
     (pin "5" (uuid f375a98c-6551-43b0-8f86-5470a50cbcf3))
     (pin "6" (uuid 63aa396c-cb23-40d9-bb7b-70d26a206a73))
     (pin "7" (uuid b1238cd2-1066-4c25-a4a3-c9413477f9f3))
+    (pin "8" (uuid 8541a509-5d7e-4959-8676-5f25dbb0b057))
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/e3bba2b3-d2df-4b56-8e13-359b6c4f2426"
