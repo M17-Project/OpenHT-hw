@@ -2719,7 +2719,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 265.43 129.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 4118564b-e0b9-4428-abed-79a0c3a0bce9)
     (property "Reference" "J401" (at 267.97 130.175 0)
       (effects (font (size 1.27 1.27)) (justify left))
