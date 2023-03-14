@@ -1,0 +1,68 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+B2         AP3-00060            43.832mm      15.353mm      44.482mm      16.103mm      44.482mm      16.103mm  T        270.00 Balun_2.4GHz   
+L3         AP3-00041            42.649mm      12.121mm      42.649mm      12.121mm      42.649mm      12.371mm  T        270.00 ceramic chip inductor, 5.6nH, 0201
+C12        AP1-00035            41.967mm     12.3876mm      41.967mm     12.3876mm     41.7295mm     12.3876mm  T        360.00 CAP-NONPOL     
+C2         AP1-00035            41.966mm     11.8544mm      41.966mm     11.8544mm     41.7285mm     11.8544mm  T          0.00 CAP-NONPOL     
+E3         AP8-00192           -164.08mm     -142.48mm        60.6mm          15mm     -164.08mm     -142.48mm  B        180.00 RUBBER FEET    
+U100       AP6-00409               8.1mm      27.415mm         8.1mm      27.415mm        8.85mm      28.865mm  T        270.00 ATSHA204A-MAHCZ-T
+C101       AP1-00001               3.8mm       1.275mm         3.8mm       1.275mm        3.25mm       1.275mm  T        360.00 Recommended by Escatec. No datasheet available yet.
+R100       AP2-00000            10.875mm      26.665mm      10.875mm      26.665mm      10.875mm      27.265mm  T        270.00 R2             
+E2         AP8-00192           -164.08mm     -142.48mm        46.9mm         4.4mm     -164.08mm     -142.48mm  B        180.00 RUBBER FEET    
+E1         AP8-00192           -164.08mm     -142.48mm        46.9mm        25.6mm     -164.08mm     -142.48mm  B        180.00 RUBBER FEET    
+C100       AP1-00001              9.75mm      26.665mm        9.75mm      26.665mm        9.75mm      26.115mm  T         90.00 Recommended by Escatec. No datasheet available yet.
+J100       AP8-00621               3.8mm          15mm         3.8mm          15mm        5.07mm       26.43mm  T         90.00 HEADER-2X10    
+C1         AP1-00001            25.008mm       1.664mm      25.008mm       1.664mm      25.558mm       1.664mm  T        180.00 CAP-NONPOL     
+C3         AP1-00035            45.476mm       12.35mm      45.476mm       12.35mm     45.3081mm     12.5179mm  T        315.00 CAP-NONPOL     
+C6         AP1-00001            22.667mm       27.84mm      22.667mm       27.84mm      22.667mm       28.39mm  T        270.00 CAP-NONPOL     
+C8         AP1-00032            46.167mm      15.777mm      46.167mm      15.777mm      45.917mm      15.777mm  T        360.00 CAP-NONPOL     
+C9         AP1-00001            41.263mm      21.414mm      41.263mm      21.414mm      41.263mm      21.964mm  T        270.00 CAP-NONPOL     
+C10        AP1-00032            37.085mm      18.528mm      37.085mm      18.528mm      37.335mm      18.528mm  T        180.00 High Temp version
+C11        AP1-00001            25.053mm       4.079mm      25.053mm       4.079mm      25.603mm       4.079mm  T        180.00 CAP-NONPOL     
+C13        AP1-00001            39.403mm      19.739mm      39.403mm      19.739mm      38.853mm      19.739mm  T        360.00 CAP-NONPOL     
+C14        AP1-00001            34.252mm      20.111mm      34.252mm      20.111mm      34.252mm      19.561mm  T         90.00 CAP-NONPOL     
+C15        AP1-00001            31.282mm      14.735mm      31.282mm      14.735mm      31.782mm      14.735mm  T        180.00 CAP-NONPOL     
+C16        AP1-00001            33.604mm       8.649mm      33.604mm       8.649mm      34.154mm       8.649mm  T        180.00 CAP-NONPOL     
+C17        AP1-00001            39.107mm       7.598mm      39.107mm       7.598mm      38.557mm       7.598mm  T        360.00 CAP-NONPOL     
+C18        AP1-00001            31.846mm       9.092mm      31.846mm       9.092mm      31.846mm       9.642mm  T        270.00 CAP-NONPOL     
+C19        AP1-00001            40.934mm       8.458mm      40.934mm       8.458mm      40.384mm       8.458mm  T        360.00 CAP-NONPOL     
+C20        AP1-00001            40.096mm      18.588mm      40.096mm      18.588mm      39.546mm      18.588mm  T        360.00 CAP-NONPOL     
+C23        AP1-00026            34.329mm       2.088mm      34.329mm       2.088mm      32.854mm       2.088mm  T        360.00 CAP-NONPOL     
+C24        AP1-00038            33.312mm      21.848mm      33.312mm      21.848mm      32.787mm      21.848mm  T        360.00 CAP-NONPOL     
+D1         AP4-00013             9.962mm       2.732mm       9.962mm       2.732mm       9.962mm       3.782mm  T        270.00 LED_12         
+D2         AP4-00013              7.72mm       2.696mm        7.72mm       2.696mm        7.72mm       3.746mm  T        270.00 LED_12         
+J104       AP8-00733            39.542mm       2.335mm      39.542mm       2.335mm      40.812mm       2.335mm  T        180.00 HEADER 1x2     
+J105       AP8-00733            39.599mm       27.91mm      39.599mm       27.91mm      38.329mm       27.91mm  T        360.00 HEADER 1x2     
+L2         AP3-00049           25.0505mm       2.885mm      25.749mm       2.885mm      25.749mm       2.885mm  T        180.00 Inductor_Iron  
+P1         AP8-00380           25.7355mm      26.473mm      24.973mm      26.473mm      26.498mm      26.473mm  T         90.00 Copy of A08-0629
+Q1         AP5-00001            15.089mm       2.662mm      15.089mm       2.662mm      15.739mm       3.587mm  T        270.00 Same as 2N7002 but with two MOSFETs in one package
+R1         AP2-00000            17.773mm       1.637mm      17.773mm       1.637mm      17.173mm       1.637mm  T        360.00 R2             
+R2         AP2-00000            12.367mm       1.686mm      12.367mm       1.686mm      12.967mm       1.686mm  T        180.00 R2             
+R3         AP2-00000             12.41mm       4.395mm       12.41mm       4.395mm       13.01mm       4.395mm  T        180.00 R2             
+R4         AP2-00028            56.337mm       5.999mm      56.337mm       5.999mm     56.0995mm       5.999mm  T        360.00 Copy of A02-0534
+R5         AP2-00000            12.372mm       2.793mm      12.372mm       2.793mm      12.972mm       2.793mm  T        180.00 R2             
+R6         AP2-00000            42.446mm      21.353mm      42.446mm      21.353mm      42.446mm      20.753mm  T         90.00 R2             
+R7         AP2-00028            35.854mm      19.139mm      35.854mm      19.139mm      35.854mm     18.9015mm  T         90.00 R2             
+R8         AP2-00000            22.633mm      24.956mm      22.633mm      24.956mm      22.633mm      24.356mm  T         90.00 R2             
+R9         AP2-00028            56.669mm      22.558mm      56.669mm      22.558mm     56.4315mm      22.558mm  T        360.00 Copy of A02-0534
+R10        AP2-00028            58.441mm       5.765mm      58.441mm       5.765mm      58.441mm      5.5275mm  T         90.00 Copy of A02-0535
+R11        AP2-00028            58.596mm     22.7955mm      58.596mm     22.7955mm      58.596mm      23.033mm  T        270.00 Copy of A02-0535
+R12        AP2-00000             32.98mm      20.097mm       32.98mm      20.097mm       32.98mm      20.697mm  T        270.00 R2             
+R101       AP2-00000             17.63mm       2.789mm       17.63mm       2.789mm       18.23mm       2.789mm  T        180.00 R2             
+R102       AP2-00000             17.63mm       4.434mm       17.63mm       4.434mm       18.23mm       4.434mm  T        180.00 R2             
+SMA1       AP8-00443            62.652mm      22.558mm      62.502mm      22.558mm      62.502mm      22.558mm  T        180.00 Board Edge Mounting
+SMA2       AP8-00443            62.676mm           6mm      62.526mm           6mm      62.526mm           6mm  T        180.00 Board Edge Mounting
+SW1        AP8-00137            17.675mm      26.297mm      17.675mm      26.297mm      14.925mm      28.297mm  T          0.00 same as A08-0091 but less force is needed; Can be ordered in low volumes from Mouser
+U1         AP6-00345           36.8617mm     13.6048mm     36.8617mm     13.6048mm     40.3367mm     10.8548mm  T        180.00 48 lead QFN package
+U2         AP6-00014            21.349mm       3.035mm      21.349mm       3.035mm      20.049mm       3.985mm  T        360.00 AT24MAC602     
+B1         AP3-00060            43.952mm      12.119mm      44.602mm      12.869mm      44.602mm      12.869mm  T        270.00 Balun_2.4GHz   
+XC1        AP7-00060            38.457mm      22.394mm      38.457mm      22.394mm      39.607mm      23.294mm  T        180.00 TXETCCSANF-26.0000
+J1         AP8-00733            29.201mm       2.582mm      29.201mm       2.582mm      30.471mm       2.582mm  T        180.00 HEADER 1x2     
+JS1        AP8-00525           -164.08mm     -142.48mm      29.214mm       2.996mm     -164.08mm     -142.48mm  T        360.00 To be used by request from ESCATEC
+J101       AP8-00746            17.258mm         9.7mm      17.258mm         9.7mm      21.213mm        8.45mm  T        360.00 SATA_7PIN_HEADER
+J102       AP8-00746            17.258mm      14.846mm      17.258mm      14.846mm      21.213mm      13.596mm  T        360.00 SATA_7PIN_HEADER
+J103       AP8-00746            17.258mm      19.942mm      17.258mm      19.942mm      21.213mm      18.692mm  T        360.00 SATA_7PIN_HEADER
+C25        AP1-00035              37.3mm      20.225mm        37.3mm      20.225mm        37.3mm     20.4625mm  T        270.00 Alternate PN GRM033R71C102KA01D  is good, but for Rated Voltage
+R13        AP2-00028           37.0767mm     19.2318mm     37.0767mm     19.2318mm     36.8392mm     19.2318mm  T        360.00 Copy of A02-0535
+LABEL1     AP8-00317           -164.08mm     -142.48mm      42.715mm       5.365mm     -164.08mm     -142.48mm  B        180.00 Comment        
+

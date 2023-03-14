@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: C:\Subversion\Boards\EOL-2020\STM32F469I-DISCO\MB1189-STM32F4-Dragon2M-434-Disco\Trunk\01-Design_Source\Altium_Designer\MB1189.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=mb1189c-roundholes-plated.txt|DrillLayers=gtl,gp1,gp2,g1,gp3,gbl
+LayersSetName=Top_Bot_Plated_Slot_Holes|DrillFile=mb1189c-slotholes-plated.txt|DrillLayers=gtl,gp1,gp2,g1,gp3,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=mb1189c-roundholes-nonplated.txt|DrillLayers=gtl,gp1,gp2,g1,gp3,gbl

@@ -1,0 +1,286 @@
+Altium Designer Pick and Place Locations
+C:\Subversion\Boards\EOL-2020\STM32F469I-DISCO\MB1189-STM32F4-Dragon2M-434-Disco\Trunk\02-Manufacturing\MB1189C_PCB\Assembly\MB1189C_PickandPlace.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       15/03/22
+Time:       10:52
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+Designator Comment                        Layer       Footprint              Center-X(mm) Center-Y(mm) Rotation Description                                                                         
+HW4        STICKER_QR_CODE                BottomLayer STICKER_QR_CODE_8X8    -300.0000    -300.0000    180      ""                                                                                  
+HW3        STICKER_BOARD_CPN              BottomLayer STICKER_BOARD-CPN_13X3 -300.0000    -300.0000    180      ""                                                                                  
+U11        "ISSI IS42S32400F-6BL"         BottomLayer ICC_VFBGA90_8X13_P080  36.1950      55.6260      90       "SDRAM 128MBit 166MHZ 90BGA"                                                        
+U3         "STLINK V2-1"                  BottomLayer LQFP48_0R5_9X9         26.1620      104.9020     90       ""                                                                                  
+CN9        PJS008-2003-1                  BottomLayer MSD_PJS008_            8.4925       35.2903      90       "MicroSD Card Conn, Reversed-Type, Mnt Push-Push, Positionning holes"               
+CN11       F206A-2*04MGF-A                BottomLayer SSM-104-L-DH           7.6200       19.0500      270      "Header, 4-Pin, Dual row"                                                           
+U4         ST890CDR                       BottomLayer SOIC8_1R27_4R9X6       43.9420      93.8530      90       ""                                                                                  
+U2         IMP34DT05TR                    TopLayer    MIC_HCLGA_3X4X1_4LD_   28.8300      5.6150       270      "MEMS audio sensor omnidirectional digital microphone for industrial applications"  
+U1         IMP34DT05TR                    TopLayer    MIC_HCLGA_3X4X1_4LD_   12.8269      123.5961     270      "MEMS audio sensor omnidirectional digital microphone for industrial applications"  
+U6         IMP34DT05TR                    TopLayer    MIC_HCLGA_3X4X1_4LD_   49.8309      5.6131       270      "MEMS audio sensor omnidirectional digital microphone for industrial applications"  
+R55        10K                            BottomLayer 0402R                  9.1440       46.3550      360      Resistor                                                                            
+R39        51                             BottomLayer 0402R                  15.7480      93.8530      90       Resistor                                                                            
+R40        51                             BottomLayer 0402R                  14.3510      93.8530      90       Resistor                                                                            
+R152       10K                            BottomLayer 0402R                  13.0810      12.1920      270      Resistor                                                                            
+R9         10K                            BottomLayer 0402R                  26.7970      116.8400     360      Resistor                                                                            
+R38        10K                            BottomLayer 0402R                  39.3700      93.9800      90       Resistor                                                                            
+R28        10K                            BottomLayer 0402R                  30.4800      97.5360      90       Resistor                                                                            
+R122       10K                            BottomLayer 0402R                  20.7010      33.7820      270      Resistor                                                                            
+R149       10K                            BottomLayer 0402R                  29.7180      13.8430      270      Resistor                                                                            
+R34        100K                           BottomLayer 0402R                  56.6420      96.9010      90       Resistor                                                                            
+R13        0                              BottomLayer 0603R                  28.9560      114.6810     270      Resistor                                                                            
+R29        [N/A]                          BottomLayer 0603R                  29.2100      97.5360      90       "Resistor 0402 / 0603 / 0805"                                                       
+R20        100                            BottomLayer 0603R                  19.5580      109.6010     360      Resistor                                                                            
+R116       47K                            BottomLayer 0603R                  18.0340      36.8300      360      Resistor                                                                            
+R3         680                            TopLayer    0603R                  21.9710      120.9040     90       Resistor                                                                            
+R6         100K                           BottomLayer 0603R                  16.5100      117.6020     90       Resistor                                                                            
+R14        0                              BottomLayer 0603R                  27.6860      114.6810     270      Resistor                                                                            
+R11        100                            BottomLayer 0603R                  56.7690      115.3160     360      Resistor                                                                            
+R12        1K5                            BottomLayer 0603R                  30.2260      114.6810     270      Resistor                                                                            
+R16        36K                            BottomLayer 0603R                  24.8920      114.6810     90       Resistor                                                                            
+R150       [N/A]                          BottomLayer 0603R                  31.1150      13.7160      270      Resistor                                                                            
+R19        220K                           BottomLayer 0603R                  14.4780      113.0300     270      Resistor                                                                            
+R18        330                            BottomLayer 0603R                  16.1290      113.0300     270      Resistor                                                                            
+R7         820                            BottomLayer 0603R                  43.0530      117.4750     360      Resistor                                                                            
+R2         510                            TopLayer    0603R                  17.2720      120.9040     90       Resistor                                                                            
+R5         680                            TopLayer    0603R                  31.3690      120.9040     90       Resistor                                                                            
+R117       0                              BottomLayer 0603R                  54.7370      35.8140      270      Resistor                                                                            
+R24        0                              BottomLayer 0603R                  3.3020       108.4580     360      Resistor                                                                            
+R114       47K                            BottomLayer 0603R                  18.0340      39.7510      360      Resistor                                                                            
+R10        100                            BottomLayer 0603R                  18.6690      115.4430     360      Resistor                                                                            
+R86        47K                            BottomLayer 0603R                  18.0340      41.1480      360      Resistor                                                                            
+R57        0                              BottomLayer 0603R                  5.7150       44.9580      360      Resistor                                                                            
+R4         680                            TopLayer    0603R                  26.6700      120.9040     90       Resistor                                                                            
+R120       47K                            BottomLayer 0603R                  18.0340      35.5600      360      Resistor                                                                            
+R115       47K                            BottomLayer 0603R                  18.0340      38.2270      360      Resistor                                                                            
+R132       0                              BottomLayer 0603R                  23.3680      20.0660      360      Resistor                                                                            
+R133       0                              BottomLayer 0603R                  23.3680      21.5900      360      Resistor                                                                            
+R58        10                             BottomLayer 0603R                  56.3880      44.1960      270      Resistor                                                                            
+R22        2K7                            BottomLayer 0603R                  32.1310      111.5060     270      Resistor                                                                            
+R36        4K7                            BottomLayer 0603R                  53.5940      96.9010      90       Resistor                                                                            
+R118       4K7                            BottomLayer 0603R                  53.2130      35.8140      270      Resistor                                                                            
+R32        4K7                            BottomLayer 0603R                  19.9390      97.5360      90       "Resistor 0402 / 0603 / 0805"                                                       
+R33        4K7                            BottomLayer 0603R                  18.6690      97.5360      90       "Resistor 0402 / 0603 / 0805"                                                       
+R37        2K7                            BottomLayer 0603R                  49.5300      95.7580      360      "Resistor 0402 / 0603 / 0805"                                                       
+R25        4K7                            BottomLayer 0603R                  32.2580      107.6960     90       Resistor                                                                            
+R155       47K                            BottomLayer 0603R                  19.3040      11.9380      270      Resistor                                                                            
+R157       47K                            BottomLayer 0603R                  10.0330      9.3980       270      Resistor                                                                            
+R48        47K                            BottomLayer 0603R                  18.1610      80.0100      90       Resistor                                                                            
+R47        47K                            BottomLayer 0603R                  19.5580      80.0100      270      Resistor                                                                            
+R124       2K2                            BottomLayer 0603R                  18.0340      32.8930      360      Resistor                                                                            
+R121       2K2                            BottomLayer 0603R                  18.0340      34.1630      360      Resistor                                                                            
+R142       1K5                            BottomLayer 0603R                  33.7820      17.0180      90       Resistor                                                                            
+R140       1K5                            BottomLayer 0603R                  36.0680      17.0180      90       Resistor                                                                            
+R154       10K                            BottomLayer 0603R                  20.8280      11.9380      270      Resistor                                                                            
+R35        100                            BottomLayer 0603R                  23.8760      111.6330     90       "Resistor 0402 / 0603 / 0805"                                                       
+R119       [N/A]                          BottomLayer 0603R                  51.6890      35.8140      270      Resistor                                                                            
+R31        [N/A]                          BottomLayer 0603R                  21.2090      97.5360      90       "Resistor 0402 / 0603 / 0805"                                                       
+R144       [N/A]                          BottomLayer 0603R                  29.5910      17.0180      270      Resistor                                                                            
+R59        100K                           BottomLayer 0603R                  54.3560      44.1960      90       Resistor                                                                            
+R8         100K                           BottomLayer 0603R                  38.7350      117.4750     360      Resistor                                                                            
+R26        100K                           BottomLayer 0603R                  19.1770      105.6640     360      "Resistor 0402 / 0603 / 0805"                                                       
+R42        100K                           BottomLayer 0603R                  43.9420      90.4240      360      Resistor                                                                            
+R30        100K                           BottomLayer 0603R                  22.4790      97.5360      270      "Resistor 0402 / 0603 / 0805"                                                       
+R27        100K                           BottomLayer 0603R                  32.2580      104.6480     270      "Resistor 0402 / 0603 / 0805"                                                       
+R1         10K                            TopLayer    0603R                  10.0330      121.0310     0        Resistor                                                                            
+R153       330                            BottomLayer 0603R                  27.6860      11.9380      270      Resistor                                                                            
+R158       680                            BottomLayer 0603R                  8.5090       9.3980       90       Resistor                                                                            
+R161       0                              BottomLayer 0603R                  24.8920      6.9850       270      Resistor                                                                            
+R46        0                              BottomLayer 0603R                  20.9550      80.0100      270      Resistor                                                                            
+R49        510                            BottomLayer 0603R                  11.4300      80.0100      360      Resistor                                                                            
+R143       510                            BottomLayer 0603R                  31.1150      17.0180      270      Resistor                                                                            
+R15        100                            BottomLayer 0603R                  26.2890      114.6810     270      "Resistor 0402 / 0603 / 0805"                                                       
+R17        100                            BottomLayer 0603R                  54.2290      114.5540     270      Resistor                                                                            
+R41        0                              BottomLayer 0603R                  10.2870      91.4400      270      Resistor                                                                            
+R159       0                              BottomLayer 0603R                  22.8600      9.0170       360      Resistor                                                                            
+R160       0                              BottomLayer 0603R                  19.9390      9.0170       360      Resistor                                                                            
+R151       0                              BottomLayer 0603R                  11.5570      12.4968      90       Resistor                                                                            
+R156       0                              BottomLayer 0603R                  11.5570      9.3980       270      Resistor                                                                            
+R23        0                              BottomLayer 0603R                  6.8580       108.4580     360      Resistor                                                                            
+R21        0                              BottomLayer 0603R                  54.2290      111.5060     270      Resistor                                                                            
+R123       0                              BottomLayer 0603R                  21.9710      33.6550      270      Resistor                                                                            
+R131       0                              BottomLayer 0603R                  23.3680      24.8920      360      Resistor                                                                            
+R135       0                              BottomLayer 0603R                  42.4180      17.0180      270      Resistor                                                                            
+R87        0                              BottomLayer 0603R                  47.4980      40.1320      90       Resistor                                                                            
+R43        [N/A]                          BottomLayer 0603R                  10.0330      12.4968      270      Resistor                                                                            
+C18        1uF                            BottomLayer 0603C                  11.6840      91.3130      270      Capacitor                                                                           
+C38        1uF                            BottomLayer 0603C                  34.4170      66.0400      360      Capacitor                                                                           
+C33        1uF                            BottomLayer 0603C                  36.7030      72.5170      270      Capacitor                                                                           
+C31        1uF                            BottomLayer 0603C                  15.2400      80.1370      270      Capacitor                                                                           
+C11        10pF                           BottomLayer 0603C                  26.1620      97.5360      270      "Capacitor 0402 / 0603 / 0805"                                                      
+C39        10nF                           BottomLayer 0603C                  36.8300      65.2780      90       "0603  X7R 10NF"                                                                    
+C21        22nF                           BottomLayer 0603C                  14.3510      91.1860      90       Capacitor,22nF,50V,X7R,10%,0603,YAGEO                                               
+C27        150pF_NPO_5%_0603              BottomLayer 0603C                  21.7170      83.9470      360      Capacitor,150pF,50V,NPO,5%,0603,YAGEO                                               
+C4         [N/A]                          BottomLayer 0603C                  15.2400      115.4430     360      Capacitor                                                                           
+C24        150pF_NPO_5%_0603              BottomLayer 0603C                  21.7170      85.3440      360      Capacitor,150pF,50V,NPO,5%,0603,YAGEO                                               
+C63        10nF                           BottomLayer 0603C                  48.6410      44.8310      360      Capacitor                                                                           
+C66        10nF                           BottomLayer 0603C                  57.0230      36.5760      360      Capacitor                                                                           
+C20        22nF                           BottomLayer 0603C                  15.7480      91.1860      90       Capacitor,22nF,50V,X7R,10%,0603,YAGEO                                               
+C94        3.0pF                          BottomLayer 0603C                  20.9550      22.3520      90       Capacitor                                                                           
+C93        3.0pF                          BottomLayer 0603C                  20.9550      19.3040      270      Capacitor                                                                           
+C19        1uF                            BottomLayer 0603C                  20.8280      91.1860      270      Capacitor                                                                           
+C22        1uF                            BottomLayer 0603C                  10.9220      88.5190      360      Capacitor                                                                           
+C10        10pF                           BottomLayer 0603C                  27.6860      97.5360      270      "Capacitor 0402 / 0603 / 0805"                                                      
+C83        8.2pF                          BottomLayer 0603C                  23.3680      27.8130      360      Capacitor                                                                           
+C85        8.2pF                          BottomLayer 0603C                  23.3680      26.2890      360      Capacitor                                                                           
+C13        [N/A]                          BottomLayer 0603C                  11.0490      94.1070      360      Capacitor                                                                           
+C26        20pF                           BottomLayer 0603C                  22.6060      111.6330     270      Capacitor,20pF,50V,NPO,5%,0402,YAGEO                                                
+C96        2.2uF                          BottomLayer 1206C                  46.2280      18.1610      270      Capacitor                                                                           
+C76        2.2uF                          BottomLayer 1206C                  47.1170      35.8140      90       Capacitor                                                                           
+C61        4.7uF/10V                      BottomLayer 1206C                  47.8790      46.7360      360      "Polarized Capacitor (Radial)"                                                      
+C79        4.7uF/50V                      BottomLayer 1206C                  56.6420      32.3850      360      Capacitor                                                                           
+C81        2.2uF                          BottomLayer 1206C                  47.1170      30.8610      90       Capacitor                                                                           
+C60        4.7uF                          BottomLayer CPOL_TAJ-A_1206_H180   23.3680      48.1330      270      "Capacitor, Tantalum, 4.7uF, 16V, 10%, 4ohms, pkg Type_A (3216 metric), T=1.6mm"    
+C35        10uF                           BottomLayer CPOL_TAJ-A_1206_H180   42.1640      71.5010      360      "Capacitor, Tantalum, 10uF, 16V, 10%, 3Ohms, pkg Type_A (3216 metric), T=1.6mm"     
+C32        10uF                           BottomLayer CPOL_TAJ-A_1206_H180   12.9540      75.1840      360      "Capacitor, Tantalum, 10uF, 16V, 10%, 3Ohms, pkg Type_A (3216 metric), T=1.6mm"     
+C29        10uF                           BottomLayer CPOL_TAJ-A_1206_H180   26.5430      82.2960      180      "Capacitor, Tantalum, 10uF, 16V, 10%, 3Ohms, pkg Type_A (3216 metric), T=1.6mm"     
+C37        10uF                           BottomLayer CPOL_TAJ-A_1206_H180   21.5900      71.6280      90       "Capacitor, Tantalum, 10uF, 16V, 10%, 3Ohms, pkg Type_A (3216 metric), T=1.6mm"     
+C65        1uF                            BottomLayer CPOL_TAJ-A_1206_H180   25.4000      36.9570      180      "Capacitor, Tantalum, 1uF, 16V, 10%, 11Ohms, pkg Type_A (3216 metric), T=1.6mm"     
+C82        "4.7uF 16V"                    BottomLayer CPOL_TAJ-A_1206_H180   54.1020      28.0670      360      "Capacitor, Tantalum, 4.7uF, 16V, 10%, 4ohms, pkg Type_A (3216 metric), T=1.6mm"    
+C101       "4.7uF 16V"                    BottomLayer CPOL_TAJ-A_1206_H180   16.8910      8.7630       90       "Capacitor, Tantalum, 4.7uF, 16V, 10%, 4ohms, pkg Type_A (3216 metric), T=1.6mm"    
+C86        1uF                            BottomLayer CPOL_TAJ-A_1206_H180   46.9800      25.6950      270      "Capacitor, Tantalum, 1uF, 16V, 10%, 11Ohms, pkg Type_A (3216 metric), T=1.6mm"     
+C80        1uF                            BottomLayer CPOL_TAJ-A_1206_H180   25.4000      31.6230      180      "Capacitor, Tantalum, 1uF, 16V, 10%, 11Ohms, pkg Type_A (3216 metric), T=1.6mm"     
+C56        10uF                           BottomLayer CPOL_TAJ-A_1206_H180   47.8790      49.1490      180      "Capacitor, Tantalum, 10uF, 16V, 10%, 3Ohms, pkg Type_A (3216 metric), T=1.6mm"     
+C15        10uF                           BottomLayer CPOL_TAJ-A_1206_H180   19.0000      92.2000      90       "Capacitor, Tantalum, 10uF, 16V, 10%, 3Ohms, pkg Type_A (3216 metric), T=1.6mm"     
+C98        4.7uF                          BottomLayer CPOL_TAJ-A_1206_H180   26.9240      15.8750      270      "Capacitor, Tantalum, 4.7uF, 16V, 10%, 4ohms, pkg Type_A (3216 metric), T=1.6mm"    
+C41        100nF                          BottomLayer 0402C                  16.6370      66.2940      360      Capacitor                                                                           
+C3         100nF                          BottomLayer 0402C                  14.9860      117.8560     90       Capacitor                                                                           
+C2         100nF                          TopLayer    0402C                  28.7020      3.3020       180      Capacitor                                                                           
+C77        100nF                          BottomLayer 0402C                  25.4000      35.1790      360      Capacitor                                                                           
+C67        100nF                          BottomLayer 0402C                  44.0690      36.5760      90       Capacitor                                                                           
+C72        100nF                          BottomLayer 0402C                  31.3690      36.5760      90       Capacitor                                                                           
+C88        100nF                          BottomLayer 0402C                  26.7970      25.2730      360      Capacitor                                                                           
+C90        100nF                          BottomLayer 0402C                  26.7970      22.7330      360      Capacitor                                                                           
+C87        100nF                          BottomLayer 0402C                  49.0220      25.4000      90       Capacitor                                                                           
+C68        100nF                          BottomLayer 0402C                  41.4020      36.5760      90       Capacitor                                                                           
+C91        100nF                          BottomLayer 0402C                  26.7970      21.5900      360      Capacitor                                                                           
+C73        100nF                          BottomLayer 0402C                  30.3530      36.5760      90       Capacitor                                                                           
+C92        100nF                          BottomLayer 0402C                  26.7970      20.3200      360      Capacitor                                                                           
+C70        100nF                          BottomLayer 0402C                  36.4490      36.5760      90       Capacitor                                                                           
+C46        100nF                          BottomLayer 0402C                  32.6390      62.1030      90       Capacitor                                                                           
+C43        100nF                          BottomLayer 0402C                  39.3700      62.1030      90       Capacitor                                                                           
+C45        100nF                          BottomLayer 0402C                  34.1630      62.1030      90       Capacitor                                                                           
+C59        100nF                          BottomLayer 0402C                  33.0200      49.5300      360      Capacitor                                                                           
+C51        100nF                          BottomLayer 0402C                  45.4660      56.5150      360      Capacitor                                                                           
+C44        100nF                          BottomLayer 0402C                  37.5920      62.1030      90       Capacitor                                                                           
+C58        100nF                          BottomLayer 0402C                  39.1160      49.0220      270      Capacitor                                                                           
+C42        100nF                          BottomLayer 0402C                  40.5130      62.1030      90       Capacitor                                                                           
+C7         100nF                          BottomLayer 0402C                  19.3040      107.6960     360      "Capacitor 0402 / 0603 / 0805"                                                      
+C5         100nF                          BottomLayer 0402C                  29.0830      110.7440     360      "Capacitor 0402 / 0603 / 0805"                                                      
+C8         100nF                          BottomLayer 0402C                  32.2580      101.9810     270      "Capacitor 0402 / 0603 / 0805"                                                      
+C9         100nF                          BottomLayer 0402C                  31.6230      97.5360      90       "Capacitor 0402 / 0603 / 0805"                                                      
+C40        100nF                          BottomLayer 0402C                  34.5440      64.3890      360      "Capacitor 0402 / 0603 / 0805"                                                      
+C14        100nF                          BottomLayer 0402C                  48.6410      93.0910      90       "Capacitor 0402 / 0603 / 0805"                                                      
+C12        100nF                          BottomLayer 0402C                  25.0190      97.5360      90       "Capacitor 0402 / 0603 / 0805"                                                      
+C17        100nF                          BottomLayer 0402C                  13.0810      91.3130      90       Capacitor                                                                           
+C16        100nF                          BottomLayer 0402C                  17.0180      91.3130      90       Capacitor                                                                           
+C30        100nF                          BottomLayer 0402C                  16.5100      80.3910      270      Capacitor                                                                           
+C1         100nF                          TopLayer    0402C                  12.7000      121.1580     180      Capacitor                                                                           
+C6         100nF                          BottomLayer 0402C                  58.1660      107.9500     270      Capacitor                                                                           
+C62        100nF                          BottomLayer 0402C                  20.8280      46.3550      360      Capacitor                                                                           
+C53        100nF                          BottomLayer 0402C                  23.3680      52.7050      360      Capacitor                                                                           
+C55        100nF                          BottomLayer 0402C                  47.7520      51.0540      360      Capacitor                                                                           
+C97        100nF                          BottomLayer 0402C                  49.9110      17.6530      360      Capacitor                                                                           
+C64        100nF                          BottomLayer 0402C                  48.6410      43.4340      360      Capacitor                                                                           
+C25        100nF                          BottomLayer 0402C                  10.9220      85.3440      360      Capacitor                                                                           
+C23        100nF                          BottomLayer 0402C                  10.9220      86.8680      360      Capacitor                                                                           
+C34        100nF                          BottomLayer 0402C                  34.9250      72.2630      270      "Capacitor 0402 / 0603 / 0805"                                                      
+C49        100nF                          BottomLayer 0402C                  45.4660      57.6580      360      Capacitor                                                                           
+C57        100nF                          BottomLayer 0402C                  42.5450      49.0220      270      Capacitor                                                                           
+C52        100nF                          BottomLayer 0402C                  27.0510      53.9750      360      Capacitor                                                                           
+C48        100nF                          BottomLayer 0402C                  27.0510      57.9120      360      Capacitor                                                                           
+C47        100nF                          BottomLayer 0402C                  30.8610      62.1030      90       Capacitor                                                                           
+C50        100nF                          BottomLayer 0402C                  27.0510      56.6420      360      Capacitor                                                                           
+C89        100nF                          BottomLayer 0402C                  26.7970      24.0030      360      Capacitor                                                                           
+C95        100nF                          BottomLayer 0402C                  26.7970      19.0536      360      Capacitor                                                                           
+C69        100nF                          BottomLayer 0402C                  38.7350      36.5760      90       Capacitor                                                                           
+C74        100nF                          BottomLayer 0402C                  28.8290      36.5760      90       Capacitor                                                                           
+C78        100nF                          BottomLayer 0402C                  25.4000      33.6550      360      Capacitor                                                                           
+C75        100nF                          BottomLayer 0402C                  20.5740      36.5760      270      Capacitor                                                                           
+C71        100nF                          BottomLayer 0402C                  34.0360      36.5760      90       Capacitor                                                                           
+C84        100nF                          BottomLayer 0402C                  26.7970      26.5430      360      Capacitor                                                                           
+C54        100nF                          BottomLayer 0402C                  23.3680      51.5620      360      Capacitor                                                                           
+B1         CTSM-644N-V-T/R                BottomLayer PB10                   19.4310      122.3010     360      "Push-Button BLACK"                                                                 
+B2         CTSM-644B-V-T/R                BottomLayer PB10                   7.2390       113.2840     360      "Push-Button BLUE"                                                                  
+SB1        "Closed by default"            BottomLayer SB_0603                18.7960      118.3640     360      "Circuit Breaker"                                                                   
+SB2        "Closed by default"            BottomLayer SB_0603                18.7960      116.8400     180      "Circuit Breaker"                                                                   
+SB3        "Closed by default"            BottomLayer SB_0603                25.7810      111.6330     270      "Circuit Breaker"                                                                   
+SB6        "Closed by default"            BottomLayer SB_0603                38.9890      17.0180      90       "Circuit Breaker"                                                                   
+SB12       "Closed by default"            BottomLayer SB_0603                48.1330      56.3880      180      "Circuit Breaker"                                                                   
+SB10       "Closed by default"            BottomLayer SB_0603                48.1330      59.5630      180      "Circuit Breaker"                                                                   
+SB5        "Closed by default"            BottomLayer SB_0603                11.4300      81.4070      360      "Circuit Breaker"                                                                   
+SB14       "Closed by default"            BottomLayer SB_0603                49.1490      28.1940      270      "Circuit Breaker"                                                                   
+SB15       "Closed by default"            BottomLayer SB_0603                32.5120      17.0180      90       "Circuit Breaker"                                                                   
+SB13       "Open by default"              BottomLayer SB_0603                50.0380      53.2130      90       "Circuit Breaker"                                                                   
+SB7        "Open by default"              BottomLayer SB_0603                38.9890      13.9700      270      "Circuit Breaker"                                                                   
+SB11       "Open by default"              BottomLayer SB_0603                48.1330      57.9120      180      "Circuit Breaker"                                                                   
+SB9        "Open by default"              BottomLayer SB_0603                48.1330      61.2140      180      "Circuit Breaker"                                                                   
+SB4        "Open by default"              BottomLayer SB_0603                23.7490      97.5360      270      "Circuit Breaker"                                                                   
+SB8        "Closed by default"            BottomLayer SB_0603                16.6370      64.5160      360      "Circuit Breaker"                                                                   
+SB16       "Open by default"              BottomLayer SB_0603                30.8610      111.5060     90       "Circuit Breaker"                                                                   
+SB18       "Closed by default"            TopLayer    SB_0603                45.3390      5.8420       270      "Circuit Breaker"                                                                   
+SB19       "Open by default"              BottomLayer SB_0603                23.3680      18.5420      180      "Circuit Breaker"                                                                   
+SB17       "opened by default"            TopLayer    SB_0603                9.1440       124.8410     0        "Circuit Breaker"                                                                   
+C36        10uF(25V)                      BottomLayer CPOL_TAJ-B_1210_H210   48.5140      66.6750      90       "Capacitor, Tantalum, 10uF, 25V, 10%, 2.5ohms, pkg Type_B (3528 metric), T=1.9mm"   
+U10        LD1117S50TR                    BottomLayer SOT-223                42.2910      66.8020      270      ""                                                                                  
+U8         LD1117S18TR                    BottomLayer SOT-223                13.7160      70.4850      270      ""                                                                                  
+U7         LD1117S33TR                    BottomLayer SOT-223                27.0510      74.2950      360      "LOW DROP FIXED AND ADJUSTABLE POSITIVE VOLTAGE REGULATORS (3.3 Volts)"             
+LD6        67-22sursygc-s530-a2-tr8       BottomLayer LED2_3528              56.8046      112.2670     360      ""                                                                                  
+LD2        Orange                         TopLayer    0603D                  21.9710      124.2060     270      "Typical RED, GREEN, YELLOW, AMBER GaAs LED"                                        
+LD5        red                            BottomLayer 0603D                  46.1010      117.4750     360      "Typical RED, GREEN, YELLOW, AMBER GaAs LED"                                        
+LD4        Blue                           TopLayer    0603D                  31.3690      124.2060     270      "Typical RED, GREEN, YELLOW, AMBER GaAs LED"                                        
+LD9        Red                            BottomLayer 0603D                  9.2710       7.1120       360      "Typical RED, GREEN, YELLOW, AMBER GaAs LED"                                        
+LD3        Red                            TopLayer    0603D                  26.6700      124.2060     270      "Typical RED, GREEN, YELLOW, AMBER GaAs LED"                                        
+LD8        Green                          TopLayer    0603D                  24.8920      7.7470       270      "Typical RED, GREEN, YELLOW, AMBER GaAs LED"                                        
+LD7        Green                          BottomLayer 0603D                  11.4300      78.6130      360      "Typical RED, GREEN, YELLOW, AMBER GaAs LED"                                        
+LD1        Green                          TopLayer    0603D                  17.2720      124.2060     270      "Typical RED, GREEN, YELLOW, AMBER GaAs LED"                                        
+L4         4.7uH(1A)                      BottomLayer 1210L                  51.0540      40.1320      270      Inductor                                                                            
+X3         NX3215SA-32.768K               BottomLayer XTAL_2SM_3R2X1R5       18.5420      20.9550      90       "Crystal 32.768kHz, 6pF, -+20PPM, R=50K, SMD"                                       
+Z1         STPS1L40M                      BottomLayer DO-216AA               50.9270      32.3850      360      "Schottky Diode"                                                                    
+L3         BEAD                           BottomLayer 0603L                  51.3080      47.4980      270      Inductor                                                                            
+L5         BEAD(FCM1608KF-601T03)         BottomLayer 0603L                  21.9710      36.8300      270      Inductor                                                                            
+L1         BEAD(FCM1608KF-601T03)         BottomLayer 0603L                  48.5140      53.2130      270      Inductor                                                                            
+L2         BEAD(FCM1608KF-601T03)         BottomLayer 0603L                  46.7360      53.2130      270      Inductor                                                                            
+D1         BAT60JFILM                     BottomLayer SOD-323                32.1310      114.6810     270      BAT60JFILM                                                                          
+D4         BAT60JFILM                     BottomLayer SOD-323                43.6880      87.5030      270      BAT60JFILM                                                                          
+D2         BAT60JFILM                     BottomLayer SOD-323                47.7520      87.5030      270      BAT60JFILM                                                                          
+D3         BAT60JFILM                     BottomLayer SOD-323                45.7200      87.5030      270      BAT60JFILM                                                                          
+CN12       TSM-108-01-X-DV                BottomLayer TSM-108-01-X-DV        38.6080      5.5880       360      "Header, 8-Pin, Dual row"                                                           
+CN4        [N/A]                          BottomLayer HDR_2X3-1_2R54-6       34.0360      86.1060      360      "Header, 3-Pin, Dual row"                                                           
+CN1        USB-MINI-typeB                 BottomLayer MINIUSB_AB_5SM_RA      31.3180      122.0260     360      "USB-MINI-typeB connector"                                                          
+CN6        SSW-108-22-X-S-VS              BottomLayer SSW-108-22-X-S-VS      54.1020      76.5810      270      "Header, 8-Pin, Single row,female"                                                  
+CN7        SSW-108-22-X-S-VS              BottomLayer SSW-108-22-X-S-VS      5.8420       58.8010      90       "Header, 8-Pin, Single row,female"                                                  
+CN8        "SAMTEC SSW-106-22-x-S-VS"     BottomLayer SSW-106-22-X-S-VS      54.1020      56.2610      270      "Header, 6-Pin, Single row,female SMD"                                              
+CN2        FH19C-6S-05SH                  BottomLayer FH19C-6S-0R5SH_FPC_CPT 56.2724      103.7588     90       "ZIF connector placed bottom side"                                                  
+CN13       475900001                      BottomLayer MOLEX_47590001         21.7170      2.8702       360      ""                                                                                  
+JP5        TSM-102-01-X-SV                BottomLayer TSM-102-01-X-SV        11.8110      3.6830       270      ""                                                                                  
+JP1        TSM-102-01-X-SV                BottomLayer TSM-102-01-X-SV        10.5410      122.3010     360      ""                                                                                  
+U5         CS43L22                        BottomLayer QFN40_0R5_6X6          16.1290      85.5980      360      "Low Power, Stereo DAC w/Headphone & Speaker Amps"                                  
+CN10       FH26-25S-0.3SHW                BottomLayer FPC25_FPC03025-1420    53.6250      21.7168      270      "ZIF connector placed bottom side"                                                  
+D5         EMIF02-USB03F2                 BottomLayer BGA11_0R5_1R57X2R07    21.8948      7.2390       90       "2-line IPAD, EMI filter including ESD protection"                                  
+CN5        SSW-110-22-X-S-VS              BottomLayer SSW-110-22-X-S-VS      5.8420       83.1850      90       "Header, 10-Pin, Single row,female"                                                 
+U13        STLD40DPUR                     BottomLayer SON8_0R65_3X3          55.1180      40.2590      360      ""                                                                                  
+U12        "MICRON MT25QL128ABA1EW9-0SIT" BottomLayer ICC_W-PDFN-8_8X6_P127  15.1250      48.2550      360      "128Mb, 3V, Multiple I/O Serial Flash Memory, Quad/Dual"                            
+CN3        PJ3028B-3                      BottomLayer PJ3028B                9.1280       102.1080     360      ""                                                                                  
+JP2        TSM-103-01-X-DV                BottomLayer TSM-103-01-X-DV        44.7040      122.1740     270      "Header, 3-Pin, Dual row"                                                           
+U9         LD3985M33R                     BottomLayer SOT23-5                35.8140      69.0880      360      "Ultra low drop-low noise BiCMOS voltage, regulators low ESR capacitors compatible" 
+U16        STMPS2151STR                   BottomLayer SOT23-5                13.9700      8.7630       360      ""                                                                                  
+T3         9013                           BottomLayer SOT-23                 23.4950      12.0650      90       "NPN Bipolar Transistor"                                                            
+T1         9013                           BottomLayer SOT-23                 22.2250      114.9350     270      "NPN Bipolar Transistor"                                                            
+H3         "POSITION HOLE"                TopLayer    HOLE_C5R5D3            4.1910       4.1910       0        ""                                                                                  
+H4         "POSITION HOLE"                TopLayer    HOLE_C5R5D3            55.8089      4.1910       0        ""                                                                                  
+H2         "POSITION HOLE"                TopLayer    HOLE_C5R5D3            55.8089      122.8088     0        ""                                                                                  
+H1         "POSITION HOLE"                TopLayer    HOLE_C5R5D3            4.1910       122.8088     0        ""                                                                                  
+U14        STM32F469NIH6                  BottomLayer BGA216_0R8_13X13       36.4490      27.0510      360      ""                                                                                  
+TP3        TP                             BottomLayer TP_C40                 30.9880      39.8780      270      ""                                                                                  
+TP4        TP                             BottomLayer TP_C40                 26.9240      59.6900      270      ""                                                                                  
+TP1        TP                             BottomLayer TP_C40                 33.0200      39.8780      270      ""                                                                                  
+TP2        TP                             BottomLayer TP_C40                 19.9390      43.1800      270      ""                                                                                  
+TP5        TP                             BottomLayer TP_C40                 20.9550      48.5140      270      ""                                                                                  
+TP6        TP                             BottomLayer TP_C40                 20.9550      50.5460      270      ""                                                                                  
+TP7        TP                             BottomLayer TP_C40                 8.7630       48.0060      270      ""                                                                                  
+X2         NX3225GD-8.00M                 BottomLayer XTAL_2SM_3R2X2R5_H1    18.2880      26.0350      270      "Crystal 8Mhz, 8pF, -+50PPM, SMD"                                                   
+X1         NX3225GD-8.00M                 BottomLayer XTAL_2SM_3R2X2R5_H1    27.6860      93.9800      360      "Crystal 8Mhz, 8pF, -+50PPM, SMD"                                                   

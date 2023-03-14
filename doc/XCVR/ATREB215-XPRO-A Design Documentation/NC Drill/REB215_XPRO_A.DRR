@@ -1,0 +1,25 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: REB215_XPRO_A.PcbDoc   2/3/2016  7:43:19 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer LF-signals to Bottom Layer LF-signals
+ASCII RoundHoles File : REB215_XPRO_A.TXT
+EIA File   : REB215_XPRO_A.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.15mm (5.905mil)        Round          69               179.72 mm (7.08 Inch)
+T2        0.25mm (9.842mil)        Round          246              647.83 mm (25.51 Inch)
+T3        0.75mm (29.528mil)       Round          21               49.62 mm (1.95 Inch)
+T4        0.8mm (31.496mil)        Round          4                22.21 mm (0.87 Inch)
+T5        1mm (39.37mil)           Round          28               137.69 mm (5.42 Inch)
+T6        1.425mm (56.102mil)      Round          6                46.27 mm (1.82 Inch)
+T7        2mm (78.74mil)           Round          2         NPTH   15.24 mm (0.60 Inch)
+---------------------------------------------------------------------------
+Totals                                            376              1098.58 mm (43.25 Inch)
+
+Two holes at same point : 1
+-----------------------
+1451,536
+
+Total Processing Time (hh:mm:ss) : 00:00:00
