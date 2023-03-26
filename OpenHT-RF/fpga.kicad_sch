@@ -1603,7 +1603,7 @@
     (uuid ffa160d6-3235-4376-878b-9392e880c7cb)
   )
 
-  (text_box "If needed, IO3, IO4, IO5 can be used as SPI bus (SPI2 on the MCU)"
+  (text_box "If needed, IO5, IO6, IO7 can be used as SPI bus (SPI2 on the MCU)"
     (at 153.67 12.7 0) (size 17.78 11.43)
     (stroke (width 0) (type default))
     (fill (type none))
