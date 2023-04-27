@@ -52,7 +52,7 @@ It was decided to pick a buck converter to keep a good power efficiency. The tri
         * ILrms = 501 mA
         * ILpeak = 575 mA
         * ILpeak(PSM mode) = 230 mA
-    The reference NRS5030T330MMGJ is pre-picked. Max current is 800 mA, saturation current is > 1 A, series resistance is 300 mOhm.
+    The reference LSXND5050XKT330MMG is pre-picked. Max current is 800 mA, saturation current is 1.15 A, series resistance is 225 mOhm (295 mOhm max.).
 * Output capacitor
     * Based on modulator pole: Does not really influence loop compensation calculation.
     * Based on Vout ripple: Voripple of 2% of 3.3 V -> 0.7uF, max Resr of 0.45 Ohm.
@@ -67,9 +67,10 @@ It was decided to pick a buck converter to keep a good power efficiency. The tri
 
 * Loop compensation
     * Cross over frequency fc = 1/10 of fsw or 40 kHz
-    * Rc = 8713 Ohm -> rounded to 8660 Ohm
-    * fp = 37913 Hz, the pole created by Cc must be lower than that. -> Cc = 1.14 nF, rounded up to 1.2 nF
-    * Cb = 3.7 pF, rounded up to 3.9 pF (for a Resr of 1 mOhm)
+    * Rc = 1595 Ohm -> rounded to 1600 Ohm
+    * Cc (Rl = 3.3 V/0.5 A = 6.6 Ohm) = 58 nF, rounded up to 68 nF
+    * Cb = 29 pF, rounded down to 27 pF (for a Resr of 3.3 mOhm)
+    * Cff = 460 pF (https://www.ti.com/lit/an/slva466a/slva466a.pdf), rounded to 470 pF
 
 
  ### Buck 2
@@ -92,7 +93,7 @@ It was decided to pick a buck converter to keep a good power efficiency. The tri
         * ILpeak = 288 mA
         * ILpeak (PSM) = 230mA
 
-    The reference NRS5030T470MMGJ is pre-picked. Max current is 700 mA, saturation current is 0.95 A, series resistance is 325 mOhm.
+    The reference 74406043470 is pre-picked. Max current is 970 mA, saturation current is 560 mA, series resistance is 260 mOhm.
 
 * Output capacitor   
     * Based on modulator pole: Does not really influence loop compensation calculation.
@@ -108,9 +109,10 @@ It was decided to pick a buck converter to keep a good power efficiency. The tri
 
 * Loop compensation
     * Cross over frequency fc = 1/10 of fsw or 40 kHz
-    * Rc = 3191 Ohm -> rounded to 3160 Ohm
-    * fp = 37913 Hz, the pole created by Cc must be lower than that. -> Cc = 0.96 nF, rounded up to 1 nF
-    * Cb = 4.5 pF (for a Resr of 1.5mOhm)
+    * Rc = 1063 Ohm -> rounded to 1000 Ohm
+    * Cc (Rl = 1.8 V/0.25 A = 7.2 Ohm) = 67 nF, rounded up to 68 nF
+    * Cb = 47 pF (for a Resr of 5 mOhm)
+    * Cff = 487 pF (https://www.ti.com/lit/an/slva466a/slva466a.pdf), rounded to 470 pF
 
 ## 1.0 V LDO
 
