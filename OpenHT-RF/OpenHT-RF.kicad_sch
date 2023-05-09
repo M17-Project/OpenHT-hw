@@ -1209,7 +1209,7 @@
     (property "Value" "1uF" (at 67.31 99.695 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right" (at 62.5348 101.6 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 62.5348 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 63.5 97.79 0)
