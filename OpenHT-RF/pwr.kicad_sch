@@ -4900,7 +4900,7 @@
     (property "Value" "Conn_01x02" (at 19.05 20.32 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 19.05 22.86 0)
+    (property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" (at 19.05 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 19.05 22.86 0)
@@ -5724,7 +5724,7 @@
     (property "Datasheet" "~" (at 132.08 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 02503071-8afb-4795-8f20-7080b170490f))
+    (pin "1" (uuid f704e4b7-0fbe-42d4-994a-2992b42150c8))
     (instances
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/17571ff2-f5b8-49d7-92c6-d2c188350dd2"
