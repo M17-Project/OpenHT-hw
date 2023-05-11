@@ -42,7 +42,7 @@
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_thickness": 0.19999999999999998,
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
