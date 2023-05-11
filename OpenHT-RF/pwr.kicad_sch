@@ -5904,6 +5904,9 @@
     (property "Datasheet" "~" (at 132.08 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "MS338-10F" (at 132.08 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f704e4b7-0fbe-42d4-994a-2992b42150c8))
     (instances
       (project "OpenHT-RF"
