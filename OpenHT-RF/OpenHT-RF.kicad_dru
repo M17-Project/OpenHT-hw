@@ -1,0 +1,7 @@
+(version 1)
+(rule via_to_via_same_net
+	(constraint physical_hole_clearance (min 0.254mm))
+	(condition "A.Type == 'Via' && B.Type == 'Via' && A.NetName == B.NetName"))
+(rule pad_to_silkscreen
+	(constraint clearance (min 0.15mm))
+	(condition " (A.Type == 'Pad' && (B.Layer == 'F.Silkscreen' || B.Layer == 'B.Silkscreen'))"))
