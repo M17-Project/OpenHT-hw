@@ -5229,7 +5229,7 @@
     (property "ki_keywords" "Balun 2.4GHz 50 Ohm")
     (path "/e3bba2b3-d2df-4b56-8e13-359b6c4f2426/53e1db78-0926-4772-afe9-345dddb8ec3d")
     (attr smd)
-    (fp_text reference "L502" (at 7.9144 0.8728 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "L502" (at 2.2248 -0.0162 unlocked) (layer "F.SilkS")
         (effects (font (size 0.8 0.8) (thickness 0.08)))
       (tstamp 48ae6f4a-b7bc-4f7e-a176-6e486a7dae3e)
     )
