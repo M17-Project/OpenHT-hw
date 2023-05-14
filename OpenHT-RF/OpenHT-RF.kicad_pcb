@@ -9191,6 +9191,7 @@
     (at 242.2235 144.0688 180)
     (descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
     (tags "fuse")
+    (property "MPN" "SMD1812B200TF/16")
     (property "Sheetfile" "pwr.kicad_sch")
     (property "Sheetname" "Power supply")
     (property "ki_description" "Resettable fuse, polymeric positive temperature coefficient")
