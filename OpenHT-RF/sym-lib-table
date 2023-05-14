@@ -5,4 +5,5 @@
   (lib (name "M17_misc_active")(type "KiCad")(uri "${KIPRJMOD}/../M17_kicad_library/M17_misc_active.kicad_sym")(options "")(descr ""))
   (lib (name "M17_power")(type "KiCad")(uri "${KIPRJMOD}/../M17_kicad_library/M17_power.kicad_sym")(options "")(descr ""))
   (lib (name "M17_logos")(type "KiCad")(uri "${KIPRJMOD}/../M17_kicad_library/M17_logos.kicad_sym")(options "")(descr ""))
+  (lib (name "M17_device")(type "KiCad")(uri "${KIPRJMOD}/../M17_kicad_library/M17_device.kicad_sym")(options "")(descr ""))
 )
