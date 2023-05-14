@@ -277,240 +277,6 @@
         )
       )
     )
-    (symbol "Device:RFShield_TwoPieces" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "RFShield_TwoPieces" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "RF EMI shielding cabinet" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Two-piece EMI RF shielding cabinet" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "RFShield_TwoPieces_0_1"
-        (polyline
-          (pts
-            (xy -15.24 -5.08)
-            (xy -15.24 -2.54)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -15.24 -1.27)
-            (xy -15.24 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -15.24 2.54)
-            (xy -15.24 5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -12.7 7.62)
-            (xy -10.16 7.62)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -10.16 -7.62)
-            (xy -12.7 -7.62)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.35 -7.62)
-            (xy -8.89 -7.62)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.35 7.62)
-            (xy -8.89 7.62)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -7.62)
-            (xy -5.08 -7.62)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 7.62)
-            (xy -5.08 7.62)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -7.62)
-            (xy 1.27 -7.62)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 7.62)
-            (xy -1.27 7.62)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -7.62)
-            (xy 5.08 -7.62)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 7.62)
-            (xy 2.54 7.62)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 6.35 -7.62)
-            (xy 8.89 -7.62)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 8.89 7.62)
-            (xy 6.35 7.62)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 10.16 -7.62)
-            (xy 12.7 -7.62)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 12.7 7.62)
-            (xy 10.16 7.62)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 15.24 -5.08)
-            (xy 15.24 -2.54)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 15.24 -1.27)
-            (xy 15.24 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 15.24 2.54)
-            (xy 15.24 5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -15.24 6.35)
-            (xy -15.24 7.62)
-            (xy -13.97 7.62)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -13.97 -7.62)
-            (xy -15.24 -7.62)
-            (xy -15.24 -6.35)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 13.97 -7.62)
-            (xy 15.24 -7.62)
-            (xy 15.24 -6.35)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 15.24 6.35)
-            (xy 15.24 7.62)
-            (xy 13.97 7.62)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -17.78 5.08)
-            (xy -17.78 11.43)
-            (xy 17.78 11.43)
-            (xy 17.78 5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "RFShield_TwoPieces_1_1"
-        (pin passive line (at 0 -10.16 90) (length 2.54)
-          (name "Shield" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Jumper:Jumper_3_Bridged12" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "JP" (at -2.54 -2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -936,6 +702,214 @@
         (pin passive line (at -5.08 -48.26 0) (length 5.08)
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "73" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "M17_device:RFShield_Frame" (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 7.62 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "RF Shield Frame" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "RF Shield frame. You will need to pair it with a lid." (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "RFShield_Frame_0_1"
+        (polyline
+          (pts
+            (xy -12.7 7.62)
+            (xy -10.16 7.62)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -10.16 -7.62)
+            (xy -12.7 -7.62)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -6.35 -7.62)
+            (xy -8.89 -7.62)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -6.35 7.62)
+            (xy -8.89 7.62)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -7.62)
+            (xy -5.08 -7.62)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 7.62)
+            (xy -5.08 7.62)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 -7.62)
+            (xy 1.27 -7.62)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 7.62)
+            (xy -1.27 7.62)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 -7.62)
+            (xy 5.08 -7.62)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 5.08 7.62)
+            (xy 2.54 7.62)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 6.35 -7.62)
+            (xy 8.89 -7.62)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 8.89 7.62)
+            (xy 6.35 7.62)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -7.62)
+            (xy 12.7 -7.62)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 12.7 7.62)
+            (xy 10.16 7.62)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -15.24 -7.62)
+            (xy -15.24 7.62)
+            (xy -13.97 7.62)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -13.97 -7.62)
+            (xy -15.24 -7.62)
+            (xy -15.24 -7.62)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 13.97 -7.62)
+            (xy 15.24 -7.62)
+            (xy 15.24 -7.62)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 15.24 -7.62)
+            (xy 15.24 7.62)
+            (xy 13.97 7.62)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "RFShield_Frame_1_1"
+        (pin passive line (at 0 -10.16 90) (length 2.54)
+          (name "Shield" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "M17_device:RFShield_Lid" (in_bom yes) (on_board no)
+      (property "Reference" "J" (at 0 6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 -7.62 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 -7.62 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 -7.62 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "RF Shield Lid" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "RF Shield lid. You will need to pair it with a frame." (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "RFShield_Lid_0_1"
+        (polyline
+          (pts
+            (xy -17.78 -2.54)
+            (xy -17.78 3.81)
+            (xy 17.78 3.81)
+            (xy 17.78 -2.54)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
         )
       )
     )
@@ -2363,6 +2337,34 @@
     )
   )
 
+  (symbol (lib_id "M17_device:RFShield_Frame") (at 69.85 170.18 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 11ac53b7-26fb-40ed-92cf-2ebb4c4c4641)
+    (property "Reference" "J402" (at 86.36 167.64 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MS300-10F" (at 86.36 170.18 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "M17_misc_passive:MS300-10F" (at 69.85 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 69.85 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "MS300-10F" (at 69.85 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 331c6a84-2d6d-4393-a641-bc94502e6c89))
+    (instances
+      (project "OpenHT-RF"
+        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
+          (reference "J402") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 280.67 33.02 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11df48f8-cf81-422c-a3c8-5311b21440bb)
@@ -2384,6 +2386,33 @@
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
           (reference "R401") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "M17_device:RFShield_Lid") (at 69.85 162.56 0) (unit 1)
+    (in_bom yes) (on_board no) (dnp no)
+    (uuid 152fec2f-67f7-4a7b-9fd2-dcb4475a427a)
+    (property "Reference" "J403" (at 69.85 154.94 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "MS300-10C" (at 69.85 157.48 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 69.85 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 69.85 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "MS300-10C" (at 69.85 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "OpenHT-RF"
+        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
+          (reference "J403") (unit 1)
         )
       )
     )
@@ -2842,34 +2871,6 @@
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
           (reference "U401") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:RFShield_TwoPieces") (at 73.66 165.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3a31e135-eb9a-4e1e-a6c1-277118f266c6)
-    (property "Reference" "J402" (at 92.71 162.56 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MS300-10F" (at 92.71 165.1 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "M17_misc_passive:MS300-10F" (at 73.66 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 73.66 167.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "MS300-10F" (at 73.66 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid aa066598-8548-49c0-987a-5f946e2feaa1))
-    (instances
-      (project "OpenHT-RF"
-        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "J402") (unit 1)
         )
       )
     )
@@ -3421,31 +3422,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 73.66 175.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 54e195ae-6d8c-4366-b921-8578f62f1f79)
-    (property "Reference" "#PWR0438" (at 73.66 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 73.66 180.34 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 73.66 175.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 73.66 175.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9521f604-7c1e-45a6-a0da-6d49a1a6d4c9))
-    (instances
-      (project "OpenHT-RF"
-        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
-          (reference "#PWR0438") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 111.76 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58cb790c-d44a-4da9-bdb3-5e02bb710ab8)
@@ -3592,6 +3568,31 @@
       (project "OpenHT-RF"
         (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
           (reference "C427") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 69.85 180.34 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 657a53bd-1839-4025-b957-26ab4a41314e)
+    (property "Reference" "#PWR0438" (at 69.85 186.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 69.85 185.42 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 69.85 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 69.85 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 224eb64a-caf1-4402-996b-f195f915326b))
+    (instances
+      (project "OpenHT-RF"
+        (path "/3c300b59-23ec-47f8-bb91-29ca34130bcf/2f3751e7-d003-4d36-b778-c7fcad1ff611"
+          (reference "#PWR0438") (unit 1)
         )
       )
     )
