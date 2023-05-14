@@ -4502,7 +4502,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 115.57 189.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 46c81c99-5a6d-49a9-9822-3f59cca3f3bd)
     (property "Reference" "FID102" (at 118.11 188.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4526,7 +4526,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 101.6 189.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f2ed46c-cff1-4689-9692-84507000764b)
     (property "Reference" "FID101" (at 104.14 188.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4586,6 +4586,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 58.42 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Tolerance" "1%" (at 58.42 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a7810eea-60fd-4d60-959d-c73ed038cb45))
@@ -4663,7 +4666,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 129.54 189.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ab8f260-05e1-4f53-9c03-1c5596d6a544)
     (property "Reference" "FID103" (at 132.08 188.595 0)
       (effects (font (size 1.27 1.27)) (justify left))

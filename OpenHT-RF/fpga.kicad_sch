@@ -2250,6 +2250,9 @@
     (property "Datasheet" "~" (at 243.84 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Tolerance" "1%" (at 243.84 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d914f3fc-5e2e-43c3-9709-11261cb5add6))
     (pin "2" (uuid 0f8b71a1-fb36-48e4-b3c3-7eac26044351))
     (instances
@@ -2380,6 +2383,9 @@
     (property "Datasheet" "~" (at 280.67 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Tolerance" "1%" (at 280.67 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid dcadde26-a297-44a0-ad8f-74ff974b320b))
     (pin "2" (uuid 77c473ed-062d-4204-8f23-98e92b1a9d15))
     (instances
@@ -2407,6 +2413,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "MS300-10C" (at 69.85 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manual_Placement" "1" (at 69.85 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
