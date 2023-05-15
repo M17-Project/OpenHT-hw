@@ -4047,6 +4047,9 @@
     (property "Datasheet" "~" (at 64.77 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "LRC0402CS5N6GV001T" (at 64.77 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7c8223f6-aa8b-4225-9f29-640dd7071393))
     (pin "2" (uuid 7389c9c5-c600-4c41-ada1-8b46103f676d))
     (instances
