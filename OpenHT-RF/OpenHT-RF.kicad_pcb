@@ -13157,6 +13157,7 @@
   (footprint "M17_connectors:Pin_1x02_P2.54mm_horizontal_SMD" (layer "B.Cu")
     (tstamp 395c05c9-fa0d-4dfb-ab0a-fd918a79e1b6)
     (at 239.3494 40.767)
+    (property "MPN" "SP-1605")
     (property "Manual_Placement" "1")
     (property "Sheetfile" "OpenHT-RF.kicad_sch")
     (property "Sheetname" "")

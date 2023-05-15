@@ -4707,6 +4707,9 @@
     (property "Manual_Placement" "1" (at 60.96 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "SP-1605" (at 60.96 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 58974ab7-3350-42a2-b9f9-1fce3c3e576e))
     (pin "2" (uuid c610f00b-a44c-485f-8749-c06cd10e5c32))
     (instances
