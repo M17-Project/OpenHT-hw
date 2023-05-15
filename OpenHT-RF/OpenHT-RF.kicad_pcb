@@ -9147,7 +9147,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.08)))
       (tstamp 7a82d6fc-c991-45a3-b310-80c87b745605)
     )
-    (fp_text value "100k" (at 0 1.17) (layer "F.Fab")
+    (fp_text value "100kR" (at 0 1.17) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 81164665-1186-4308-bf6e-e238644e3eb1)
     )
