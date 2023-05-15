@@ -8815,6 +8815,7 @@
     (tags "resistor")
     (property "Sheetfile" "pwr.kicad_sch")
     (property "Sheetname" "Power supply")
+    (property "Tolerance" "0.1%")
     (property "ki_description" "Resistor")
     (property "ki_keywords" "R res resistor")
     (path "/17571ff2-f5b8-49d7-92c6-d2c188350dd2/c7c711e2-229e-4f2c-b6f7-b3c1b353cc53")

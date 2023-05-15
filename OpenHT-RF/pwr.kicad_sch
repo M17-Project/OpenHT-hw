@@ -5367,7 +5367,7 @@
     (property "Datasheet" "~" (at 231.14 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Tolerance" "1%" (at 231.14 154.94 0)
+    (property "Tolerance" "0.1%" (at 231.14 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7cdada08-deb3-4da3-b342-3ba56c1231eb))
