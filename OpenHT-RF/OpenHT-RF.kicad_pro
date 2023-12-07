@@ -502,7 +502,6 @@
       "/RF/RF09_P": "100Ohm_Diff",
       "/RF/RF24_N": "100Ohm_Diff",
       "/RF/RF24_P": "100Ohm_Diff",
-      "Net-(C507-Pad1)": "50Ohm",
       "Net-(D501-A2)": "50Ohm",
       "Net-(FL501-IN)": "50Ohm",
       "Net-(FL501-OUT)": "50Ohm",
