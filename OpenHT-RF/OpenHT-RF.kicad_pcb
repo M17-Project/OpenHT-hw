@@ -11469,25 +11469,25 @@
       (net 21 "+3V3") (pinfunction "VCC") (pintype "power_in") (thermal_bridge_angle 45) (tstamp 24127bfa-83e7-4a77-85bf-367454c70077))
   )
 
-  (footprint "M17_logos:M17_logo_20mmx15mm" (layer "F.Cu")
+  (footprint "M17_logos:M17_logo_12x7.5mm" (layer "F.Cu")
     (tstamp d5ba6b1c-b834-4c5a-ac6a-c84700a06169)
     (at 240.0874 40.746)
     (property "Sheetfile" "OpenHT-RF.kicad_sch")
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/6c7f082c-bc1c-4310-95b8-21f7bd56e1ec")
-    (attr exclude_from_bom)
-    (fp_text reference "LOGO101" (at 0 -6.604 unlocked) (layer "F.SilkS") hide
+    (attr smd exclude_from_bom)
+    (fp_text reference "LOGO101" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
-      (tstamp c752cfc7-c2af-4d78-a5fa-0fae553f4e09)
+      (tstamp 536a0629-ba8e-4b4c-9594-8662af2dd35a)
     )
-    (fp_text value "M17_logo_20mmx15mm" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text value "M17_logo_20mmx15mm" (at 0 1 unlocked) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 832858f3-f1c3-47d9-8b89-0acae99962e9)
+      (tstamp 7e90aeda-91a4-41d8-b542-19a9b158a62c)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 11ebddf9-ee30-4e68-aca7-8d8ff8e4bb67)
+      (tstamp 78367aae-c3cf-47cc-9318-6aad3207e292)
     )
     (fp_poly
       (pts

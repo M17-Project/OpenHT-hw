@@ -457,20 +457,20 @@
         )
       )
     )
-    (symbol "M17_logos:M17_logo_20mmx15mm" (in_bom no) (on_board yes)
+    (symbol "M17_logos:M17_logo" (in_bom no) (on_board yes)
       (property "Reference" "LOGO" (at 0 4.826 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "M17_logo_20mmx15mm" (at 0 4.953 0)
+      (property "Value" "M17_logo" (at 0 4.953 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Footprint" "M17_logos:M17_logo_20mmx15mm" (at -3.175 2.286 0)
+      (property "Footprint" "M17_logos:M17_logo_20x11.5mm" (at -3.175 2.286 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (at -3.175 2.286 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "M17_logo_20mmx15mm_0_0"
+      (symbol "M17_logo_0_0"
         (polyline
           (pts
             (xy 2.148 0.4569)
@@ -4549,7 +4549,7 @@
     )
   )
 
-  (symbol (lib_id "M17_logos:M17_logo_20mmx15mm") (at 144.78 35.56 0) (unit 1)
+  (symbol (lib_id "M17_logos:M17_logo") (at 144.78 35.56 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c7f082c-bc1c-4310-95b8-21f7bd56e1ec)
     (property "Reference" "LOGO101" (at 144.78 30.734 0)
@@ -4558,7 +4558,7 @@
     (property "Value" "M17_logo_20mmx15mm" (at 144.78 30.607 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "M17_logos:M17_logo_20mmx15mm" (at 141.605 33.274 0)
+    (property "Footprint" "M17_logos:M17_logo_12x7.5mm" (at 141.605 33.274 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 141.605 33.274 0)
