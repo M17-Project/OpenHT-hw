@@ -796,7 +796,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/1ac744a1-066f-4d1a-b0df-41e1d7c4818a/afa5f671-7b58-4983-80e3-6d158d43ca9b")
     (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "H301" (at 0 -3.8 180) (layer "F.SilkS")
+    (fp_text reference "H301" (at 0 -3.8 180) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b69bfe91-ea32-4561-bddb-86cfa3069946)
     )
@@ -8547,7 +8547,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/1ac744a1-066f-4d1a-b0df-41e1d7c4818a/2acec172-1766-49fe-b50c-731b01560609")
     (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "H302" (at 0 -3.8 180) (layer "F.SilkS")
+    (fp_text reference "H302" (at 0 -3.8 180) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7225785f-f618-419e-b3ea-072423f7929c)
     )
@@ -10724,7 +10724,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/1ac744a1-066f-4d1a-b0df-41e1d7c4818a/4a3107e8-ff9f-4afc-b0a1-24b112abc95a")
     (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "H304" (at 0 -3.8 180) (layer "F.SilkS")
+    (fp_text reference "H304" (at 0 -3.8 180) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c57d41a5-5812-4bd1-89a7-1d3ddea8fbdf)
     )
@@ -11479,15 +11479,15 @@
     (attr smd exclude_from_bom)
     (fp_text reference "LOGO101" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
-      (tstamp 536a0629-ba8e-4b4c-9594-8662af2dd35a)
+      (tstamp 3e2e3c83-5498-424c-906d-3a2ce3c435f9)
     )
     (fp_text value "M17_logo_20mmx15mm" (at 0 1 unlocked) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 7e90aeda-91a4-41d8-b542-19a9b158a62c)
+      (tstamp 42af3877-0c09-4936-8a95-6bc38de3a11d)
     )
     (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 78367aae-c3cf-47cc-9318-6aad3207e292)
+      (tstamp 0262d2ba-076f-4efe-b3a3-c5faf9d41454)
     )
     (fp_poly
       (pts
@@ -11577,7 +11577,7 @@
         (xy 1.842442 -3.356957)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp cccac4a2-0bd1-4118-86df-7c21e81b9cd2))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp ec372ec1-f198-4735-91d3-645931a678d2))
     (fp_poly
       (pts
         (xy 4.600253 -2.390824)
@@ -11684,7 +11684,7 @@
         (xy 4.362763 -2.390916)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 6a11c15c-9e43-4282-963c-5b4fce47d899))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp fc607979-8471-4283-9a37-03d9ab234f3f))
     (fp_poly
       (pts
         (xy -3.152066 -1.219793)
@@ -11882,7 +11882,7 @@
         (xy -3.158181 -3.375365)
       )
 
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 5bff7481-4298-42af-ac66-f564d80f0379))
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 02b9a487-b77e-45cd-9244-09716351291c))
   )
 
   (footprint "Filter:Filter_Mini-Circuits_FV1206" (layer "F.Cu")
@@ -12909,7 +12909,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/1ac744a1-066f-4d1a-b0df-41e1d7c4818a/7f9cd522-68b0-4870-8ce4-747d15b00125")
     (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "H303" (at 0 -3.8 180) (layer "F.SilkS")
+    (fp_text reference "H303" (at 0 -3.8 180) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fbbaa30d-03dc-4051-a43e-a9c1fe8f7320)
     )
@@ -20320,7 +20320,7 @@
   (via (at 216.9974 141.605) (size 0.7) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 1c7b09fd-af31-4e36-b985-ed3333caeec9))
   (via (at 245.680519 116.387785) (size 0.6) (drill 0.2) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 1cd812f2-ccc5-41e6-9584-591e82c87422))
   (via (at 224.3126 133.317833) (size 0.7) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 1d705d92-9ef7-4bcd-87d7-28a07d66facd))
-  (via (at 223.1 56.675) (size 0.6) (drill 0.2) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 1e305568-28e4-4388-9a42-faebfa2ecb43))
+  (via (at 223.15 56.625) (size 0.6) (drill 0.2) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 1e305568-28e4-4388-9a42-faebfa2ecb43))
   (via (at 231.163835 81.536017) (size 0.6) (drill 0.2) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 1e50c773-2a64-42ae-b8a9-44060db4c8c7))
   (via (at 238.854423 45.910924) (size 0.6) (drill 0.2) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 1e66507c-b7a3-4075-9325-c4f72b45f5f8))
   (via (at 240.3119 91.2876) (size 0.6) (drill 0.2) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 1e70e720-b0f3-47a7-851e-31818b623555))
@@ -20748,7 +20748,7 @@
   (via (at 234.3374 97.676) (size 0.6) (drill 0.2) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 9d22bd44-284a-4207-8705-dc304ceb60c8))
   (via (at 209.5298 97.3587) (size 0.6) (drill 0.2) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 9d45482b-9662-4059-a304-d7a71bbba0c1))
   (via (at 210.35 35.15) (size 0.6) (drill 0.2) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 9d51d773-66e6-4f71-b180-961756318a48))
-  (via (at 222.916274 55.94921) (size 0.6) (drill 0.2) (layers "F.Cu" "B.Cu") (net 2) (tstamp 9db59f59-a2c6-473b-804b-e5cd01117075))
+  (via (at 222.9104 55.985242) (size 0.6) (drill 0.2) (layers "F.Cu" "B.Cu") (net 2) (tstamp 9db59f59-a2c6-473b-804b-e5cd01117075))
   (via (at 222.4584 122.809) (size 0.7) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 9dfc82fa-4966-4b70-968a-ea00105a10de))
   (via (at 222.05 86.4108) (size 0.6) (drill 0.2) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 9e5ebced-ab2b-4895-9ba5-7f1f2cea9eda))
   (via (at 226.0346 89.1032) (size 0.6) (drill 0.2) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 9eb11225-ccd6-40e6-b94f-921cbf05f0c9))
